@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<books>
+    <book>
+        <title>Fourth Wing</title>
+        <author>Rebecca Yarros</author>
+        <genre>Fantasy</genre>
+        <icon>@drawable/fantasy_icon</icon>
+    </book>
+    <book>
+        <title>Happy Place</title>
+        <author>Emily Henry</author>
+        <genre>Contemporary Fiction</genre>
+        <icon>@drawable/contemporary_fiction_icon</icon>
+    </book>
+    <book>
+        <title>The Last Garden</title>
+        <author>Lauren James</author>
+        <genre>Science Fiction</genre>
+        <icon>@drawable/science_fiction_icon</icon>
+    </book>
+    <book>
+        <title>The Lost Apothecary</title>
+        <author>Sarah Penner</author>
+        <genre>Historical Fiction</genre>
+        <icon>@drawable/historical_fiction_icon</icon>
+    </book>
+    <book>
+        <title>The Gilded Wolves</title>
+        <author>Roshani Chokshi</author>
+        <genre>Young Adult Fantasy</genre>
+        <icon>@drawable/young_adult_fantasy_icon</icon>
+    </book>
+    <book>
+        <title>The Echo Wife</title>
+        <author>Sarah Gailey</author>
+        <genre>Science Fiction</genre>
+        <icon>@drawable/science_fiction_icon</icon>
+    </book>
+    <book>
+        <title>The Hawthorne Legacy</title>
+        <author>Jennifer Lynn Barnes</author>
+        <genre>Mystery</genre>
+        <icon>@drawable/mystery_icon</icon>
+    </book>
+    <book>
+        <title>The Book of Accidents</title>
+        <author>Chuck Wendig</author>
+        <genre>Horror</genre>
+        <icon>@drawable/horror_icon</icon>
+    </book>
+    <book>
+        <title>The Devil's Hour</title>
+        <author>Rachel Caine</author>
+        <genre>Urban Fantasy</genre>
+        <icon>@drawable/urban_fantasy_icon</icon>
+    </book>
+    <book>
+        <title>The Heart Principle</title>
+        <author>Helen Hoang</author>
+        <genre>Romance</genre>
+        <icon>@drawable/romance_icon</icon>
+    </book>
+    <book>
+        <title>The Final Girl Support Group</title>
+        <author>Grady Hendrix</author>
+        <genre>Horror</genre>
+        <icon>@drawable/horror_icon</icon>
+    </book>
+    <book>
+        <title>The Ex Hex</title>
+        <author>Erin Sterling</author>
+        <genre>Paranormal Romance</genre>
+        <icon>@drawable/paranormal_romance_icon</icon>
+    </book>
+    <book>
+        <title>The Soulmate Equation</title>
+        <author>Christina Lauren</author>
+        <genre>Contemporary Romance</genre>
+        <icon>@drawable/contemporary_romance_icon</icon>
+    </book>
+    <book>
+        <title>The Inheritance of Orquídea Divina</title>
+        <author>Zoraida Córdova</author>
+        <genre>Fantasy</genre>
+        <icon>@drawable/fantasy_icon</icon>
+    </book>
+    <book>
+        <title>The Bone Season</title>
+        <author>Samantha Shannon</author>
+        <genre>Dystopian Fantasy</genre>
+        <icon>@drawable/dystopian_fantasy_icon</icon>
+    </book>
+    <book>
+        <title>The Groom Will Keep His Name</title>
+        <author>Matt Ortile</author>
+        <genre>Memoir</genre>
+        <icon>@drawable/memoir_icon</icon>
+    </book>
+    <book>
+        <title>The Other Merlin</title>
+        <author>A.J. Sass</author>
+        <genre>Middle Grade Fantasy</genre>
+        <icon>@drawable/middle_grade_fantasy_icon</icon>
+    </book>
+    <book>
+        <title>The Last Graduate</title>
+        <author>Naomi Novik</author>
+        <genre>Fantasy</genre>
+        <icon>@drawable/fantasy_icon</icon>
+    </book>
+    <book>
+        <title>The Last House on Needless Street</title>
+        <author>Catriona Ward</author>
+        <genre>Thriller</genre>
+        <icon>@drawable/thriller_icon</icon>
+    </book>
+    <book>
+        <title>The Last Chance Library</title>
+        <author>Freya Sampson</author>
+        <genre>Contemporary Fiction</genre>
+        <icon>@drawable/contemporary_fiction_icon</icon>
+    </book>
+    <book>
+        <title>The Last Legacy</title>
+        <author>Adrienne Young</author>
+        <genre>Fantasy</genre>
+        <icon>@drawable/fantasy_icon</icon>
+    </book>
+    <book>
+        <title>The Last Girl Ghosted</title>
+        <author>Lisa Unger</author>
+        <genre>Thriller</genre>
+        <icon>@drawable/thriller_icon</icon>
+    </book>
+    <book>
+        <title>The Last Fallen Star</title>
+        <author>Graci Kim</author>
+        <genre>Middle Grade Fantasy</genre>
+        <icon>@drawable/middle_grade_fantasy_icon</icon>
+    </book>
+    <book>
+        <title>The Last Duel</title>
+        <author>Eric Jager</author>
+        <genre>History</genre>
+        <icon>@drawable/history_icon</icon>
+    </book>
+    <book>
+        <title>The Last Chance Hotel</title>
+        <author>Nicki Thornton</author>
+        <genre>Middle Grade Mystery</genre>
+        <icon>@drawable/middle_grade_mystery_icon</icon>
+    </book>
+    <book>
+        <title>The Last Bookshop in London</title>
+        <author>Madeline Martin</author>
+        <genre>Historical Fiction</genre>
+        <icon>@drawable/historical_fiction_icon</icon>
+    </book>
+    <book>
+        <title>The Last Best Hope</title>
+        <author>James S.A. Corey</author>
+        <genre>Science Fiction</genre>
+        <icon>@drawable/science_fiction_icon</icon>
+    </book>
+    <book>
+        <title>The Last Adventure of Constance Verity</title>
+        <author>A. Lee Martinez</author>
+        <genre>Fantasy</genre>
+        <icon>@drawable/fantasy_icon</icon>
+    </book>
+    <book>
+        <title>The Last Affair</title>
+        <author>Margot Hunt</author>
+        <genre>Thriller</genre>
+        <icon>@drawable/thriller_icon</icon>
+    </book>
+    <book>
+        <title>The Last Act</title>
+        <author>Brad Parks</author>
+        <genre>Mystery</genre>
+        <icon>@drawable/mystery_icon</icon>
+    </book>
+</books>

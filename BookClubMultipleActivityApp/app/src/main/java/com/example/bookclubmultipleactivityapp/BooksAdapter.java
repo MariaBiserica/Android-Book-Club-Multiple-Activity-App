@@ -43,7 +43,8 @@ public class BooksAdapter extends RecyclerView.Adapter<BooksAdapter.BookViewHold
         Book book = booksList.get(position);
         holder.bookTitle.setText(book.getTitle());
         holder.bookSubtitle.setText(book.getAuthor() + " - " + book.getGenre());
-        // Set your book icon here using holder.bookIcon
+        // Set book icon
+        holder.bookIcon.setImageResource(book.getIconDrawable());
     }
 
     @Override
