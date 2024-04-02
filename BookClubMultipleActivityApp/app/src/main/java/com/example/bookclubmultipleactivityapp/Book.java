@@ -5,13 +5,18 @@ public class Book {
     private String author;
     private String genre;
     private int iconDrawable; // Field to store the drawable resource ID
+    private String briefDescription;
+    private int coverDrawable; // Field to store the book cover drawable resource
 
     // Updated constructor to include iconDrawable
-    public Book(String title, String author, String genre, int iconDrawable) {
+    public Book(String title, String author, String genre, int iconDrawable,
+                String briefDescription, int coverDrawable) {
         this.title = title;
         this.author = author;
         this.genre = genre;
         this.iconDrawable = iconDrawable;
+        this.briefDescription = briefDescription;
+        this.coverDrawable = coverDrawable;
     }
 
     // Getters
@@ -31,6 +36,13 @@ public class Book {
         return iconDrawable;
     }
 
+    public String getBriefDescription() {
+        return briefDescription;
+    }
+    public int getCoverDrawable() {
+        return coverDrawable;
+    }
+
     // Setters
     public void setTitle(String title) {
         this.title = title;
@@ -46,5 +58,13 @@ public class Book {
 
     public void setIconDrawable(int iconDrawable) {
         this.iconDrawable = iconDrawable;
+    }
+
+    public void setBriefDescription(String briefDescription) {
+        this.briefDescription = briefDescription;
+    }
+
+    public void setCoverDrawable(int coverDrawable) {
+        this.coverDrawable = coverDrawable;
     }
 }

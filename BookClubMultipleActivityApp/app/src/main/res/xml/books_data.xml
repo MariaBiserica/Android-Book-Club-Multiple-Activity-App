@@ -1,159 +1,219 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE books [<!ELEMENT books (book)*><!ELEMENT book (title|author|genre|briefDescription|icon|cover)*><!ELEMENT title (#PCDATA)><!ELEMENT author (#PCDATA)><!ELEMENT genre (#PCDATA)><!ELEMENT briefDescription (#PCDATA)><!ELEMENT icon (#PCDATA)><!ELEMENT cover (#PCDATA)>]>
 <books>
     <book>
         <title>Fourth Wing</title>
         <author>Rebecca Yarros</author>
         <genre>Fantasy</genre>
+        <briefDescription>Enter the brutal and elite world of a war college for dragon riders from USA Today bestselling author Rebecca Yarros.</briefDescription>
         <icon>@drawable/fantasy_icon</icon>
+        <cover>@drawable/fourth_wing</cover>
     </book>
     <book>
         <title>Happy Place</title>
         <author>Emily Henry</author>
         <genre>Contemporary Fiction</genre>
+        <briefDescription>A couple who broke up months ago make a pact to pretend to still be together for their annual weeklong vacation with their best friends in this glittering and wise new novel from #1 New York Times bestselling author Emily Henry.</briefDescription>
         <icon>@drawable/contemporary_fiction_icon</icon>
+        <cover>@drawable/happy_place</cover>
     </book>
     <book>
         <title>Iron Flame</title>
         <author>Rebecca Yarros</author>
         <genre>Fantasy</genre>
+        <briefDescription>“The first year is when some of us lose our lives. The second year is when the rest of us lose our humanity.” —Xaden Riorson</briefDescription>
         <icon>@drawable/fantasy_icon</icon>
+        <cover>@drawable/iron_flame</cover>
     </book>
     <book>
         <title>The Housemaid's Secret</title>
         <author>Freida McFadden</author>
         <genre>Thriller</genre>
+        <briefDescription>As he continues showing me their incredible penthouse apartment, I have a terrible feeling about the woman behind closed doors. But I can't risk losing this job – not if I want to keep my darkest secret safe . . .</briefDescription>
         <icon>@drawable/thriller_icon</icon>
+        <cover>@drawable/the_housemaids_secret</cover>
     </book>
     <book>
         <title>The Gilded Wolves</title>
         <author>Roshani Chokshi</author>
         <genre>Young Adult Fantasy</genre>
+        <briefDescription>From New York Times bestselling author Roshani Chokshi comes a novel set in Paris during a time of extraordinary change--one that is full of mystery, decadence, and dangerous desires...</briefDescription>
         <icon>@drawable/young_adult_fantasy_icon</icon>
+        <cover>@drawable/the_gilded_wolves</cover>
     </book>
     <book>
         <title>The Echo Wife</title>
         <author>Sarah Gailey</author>
         <genre>Science Fiction</genre>
+        <briefDescription>I’m embarrassed, still, by how long it took me to notice. Everything was right there in the open, right there in front of me, but it still took me so long to see the person I had married.
+
+            It took me so long to hate him.</briefDescription>
         <icon>@drawable/science_fiction_icon</icon>
+        <cover>@drawable/the_echo_wife</cover>
     </book>
     <book>
         <title>The Hawthorne Legacy</title>
         <author>Jennifer Lynn Barnes</author>
         <genre>Mystery</genre>
+        <briefDescription>Intrigue, riches, and romance abound in this thrilling sequel to the New York Times bestselling The Inheritance Games perfect for fans of Karen McManus and Holly Jackson.</briefDescription>
         <icon>@drawable/mystery_icon</icon>
+        <cover>@drawable/the_hawthorne_legacy</cover>
     </book>
     <book>
         <title>The Book of Accidents</title>
         <author>Chuck Wendig</author>
         <genre>Horror</genre>
+        <briefDescription>Long ago, Nathan lived in a house in the country with his abusive father—and has never told his family what happened there.
+
+            Long ago, Maddie was a little girl making dolls in her bedroom when she saw something she shouldn’t have—and is trying to remember that lost trauma by making haunting sculptures.</briefDescription>
         <icon>@drawable/horror_icon</icon>
+        <cover>@drawable/the_book_of_accidents</cover>
     </book>
     <book>
         <title>The Heart Principle</title>
         <author>Helen Hoang</author>
         <genre>Romance</genre>
+        <briefDescription>A woman struggling with burnout learns to embrace the unexpected—and the man she enlists to help her—in this new New York Times bestselling romance by Helen Hoang.</briefDescription>
         <icon>@drawable/romance_icon</icon>
+        <cover>@drawable/the_heart_principle</cover>
     </book>
     <book>
         <title>The Final Girl Support Group</title>
         <author>Grady Hendrix</author>
         <genre>Horror</genre>
+        <briefDescription>In horror movies, the final girls are the ones left standing when the credits roll. They made it through the worst night of their lives…but what happens after?</briefDescription>
         <icon>@drawable/horror_icon</icon>
+        <cover>@drawable/the_final_girl_support_group</cover>
     </book>
     <book>
         <title>The Ex Hex</title>
         <author>Erin Sterling</author>
         <genre>Paranormal Romance</genre>
+        <briefDescription>New York Times bestselling author Rachel Hawkins, writing as Erin Sterling, casts a spell with a spine-tingling romance full of wishes, witches, and hexes gone wrong.</briefDescription>
         <icon>@drawable/paranormal_romance_icon</icon>
+        <cover>@drawable/the_ex_hex</cover>
     </book>
     <book>
         <title>The Soulmate Equation</title>
         <author>Christina Lauren</author>
         <genre>Contemporary Romance</genre>
+        <briefDescription>Single mom Jess Davis is a data and statistics wizard, but no amount of number crunching can convince her to step back into the dating world. After all, her father was never around, her hard-partying mother disappeared when she was six, and her ex decided he wasn’t “father material” before her daughter was even born. Jess holds her loved ones close but working constantly to stay afloat is hard...and lonely.</briefDescription>
         <icon>@drawable/contemporary_romance_icon</icon>
+        <cover>@drawable/the_soulmate_equation</cover>
     </book>
     <book>
         <title>The Inheritance of Orquídea Divina</title>
         <author>Zoraida Córdova</author>
         <genre>Fantasy</genre>
+        <briefDescription>The Montoyas are used to a life without explanations. They know better than to ask why the pantry never seems to run low or empty, or why their matriarch won’t ever leave their home in Four Rivers—even for graduations, weddings, or baptisms. But when Orquídea Divina invites them to her funeral and to collect their inheritance, they hope to learn the secrets that she has held onto so tightly their whole lives. Instead, Orquídea is transformed, leaving them with more questions than answers.</briefDescription>
         <icon>@drawable/fantasy_icon</icon>
+        <cover>@drawable/the_inheritance_of_orquidea_divina</cover>
     </book>
     <book>
         <title>The Bone Season</title>
         <author>Samantha Shannon</author>
         <genre>Dystopian Fantasy</genre>
+        <briefDescription>The year is 2059. Nineteen-year-old Paige Mahoney is working in the criminal underworld of Scion London, based at Seven Dials, employed by a man named Jaxon Hall. Her job: is to scout for information by breaking into people’s minds. For Paige is a dreamwalker, a clairvoyant, and, in the world of Scion, she commits treason simply by breathing.</briefDescription>
         <icon>@drawable/dystopian_fantasy_icon</icon>
+        <cover>@drawable/the_bone_season</cover>
     </book>
     <book>
         <title>The Groom Will Keep His Name</title>
         <author>Matt Ortile</author>
         <genre>Memoir</genre>
+        <briefDescription>When Matt Ortile moved from Manila to Las Vegas, the locals couldn't pronounce his name. Harassed as a kid for his brown skin, accent, and femininity, he believed he could belong in America by marrying a white man and shedding his Filipino identity. This was the first myth he told himself. The Groom Will Keep His Name explores the various tales Ortile spun about what it means to be a Vassar Girl, an American Boy, and a Filipino immigrant in New York looking to build a home.</briefDescription>
         <icon>@drawable/memoir_icon</icon>
+        <cover>@drawable/the_groom_will_keep_his_name</cover>
     </book>
     <book>
         <title>The Last Graduate</title>
         <author>Naomi Novik</author>
         <genre>Fantasy</genre>
+        <briefDescription>A budding dark sorceress determined not to use her formidable powers uncovers yet more secrets about the workings of her world in the stunning sequel to A Deadly Education, the start of Naomi Novik’s groundbreaking crossover series.</briefDescription>
         <icon>@drawable/fantasy_icon</icon>
+        <cover>@drawable/the_last_graduate</cover>
     </book>
     <book>
         <title>The Last House on Needless Street</title>
         <author>Catriona Ward</author>
         <genre>Thriller</genre>
+        <briefDescription>This is the story of a serial killer. A stolen child. Revenge. Death. And an ordinary house at the end of an ordinary street.
+
+            All these things are true. And yet they are all lies...</briefDescription>
         <icon>@drawable/thriller_icon</icon>
+        <cover>@drawable/the_last_house_on_needless_street</cover>
     </book>
     <book>
         <title>The Last Chance Library</title>
         <author>Freya Sampson</author>
         <genre>Contemporary Fiction</genre>
+        <briefDescription>June Jones emerges from her shell to fight for her beloved local library, and through the efforts and support of an eclectic group of library patrons, she discovers life-changing friendships along the way.</briefDescription>
         <icon>@drawable/contemporary_fiction_icon</icon>
+        <cover>@drawable/the_last_chance_library</cover>
     </book>
     <book>
         <title>The Last Legacy</title>
         <author>Adrienne Young</author>
         <genre>Fantasy</genre>
+        <briefDescription>When a letter from her uncle Henrik arrives on Bryn Roth's eighteenth birthday, summoning her back to Bastian, Bryn is eager to prove herself and finally take her place in her long-lost family.</briefDescription>
         <icon>@drawable/fantasy_icon</icon>
+        <cover>@drawable/the_last_legacy</cover>
     </book>
     <book>
         <title>The Last Fallen Star</title>
         <author>Graci Kim</author>
         <genre>Middle Grade Fantasy</genre>
+        <briefDescription>Best-selling author Rick Riordan presents Graci Kim's thrilling debut, now in paperback, about an adopted Korean-American girl who discovers her heritage and her magic on a perilous journey to save her witch clan family.</briefDescription>
         <icon>@drawable/middle_grade_fantasy_icon</icon>
+        <cover>@drawable/the_last_fallen_star</cover>
     </book>
     <book>
         <title>The Last Duel</title>
         <author>Eric Jager</author>
         <genre>History</genre>
+        <briefDescription>The gripping true story of the “duel to end all duels” in medieval France as a resolute knight defends his wife's honor against the squire she accuses of a heinous crime.</briefDescription>
         <icon>@drawable/history_icon</icon>
+        <cover>@drawable/the_last_duel</cover>
     </book>
     <book>
         <title>The Last Chance Hotel</title>
         <author>Nicki Thornton</author>
         <genre>Middle Grade Mystery</genre>
+        <briefDescription>Seth is a kitchen boy at the remote Last Chance Hotel. His father has long ago left, leaving him imprisoned until he is old enough to set out on his own. If there's any hope he has, it's to be the greatest chef that ever lived... just like his father.</briefDescription>
         <icon>@drawable/middle_grade_mystery_icon</icon>
+        <cover>@drawable/the_last_chance_hotel</cover>
     </book>
     <book>
         <title>The Last Bookshop in London</title>
         <author>Madeline Martin</author>
         <genre>Historical Fiction</genre>
+        <briefDescription>Inspired by the true World War II history of the few bookshops to survive the Blitz, The Last Bookshop in London is a timeless story of wartime loss, love and the enduring power of literature.</briefDescription>
         <icon>@drawable/historical_fiction_icon</icon>
+        <cover>@drawable/the_last_bookshop_in_london</cover>
     </book>
     <book>
         <title>The Last Adventure of Constance Verity</title>
         <author>A. Lee Martinez</author>
         <genre>Fantasy</genre>
+        <briefDescription>Constance Verity has been saving the world since she was seven, and she’s sick of it. She sets off on one last adventure to assassinate her fairy godmother and become the one thing she’s never been: ordinary.</briefDescription>
         <icon>@drawable/fantasy_icon</icon>
+        <cover>@drawable/the_last_adventure_of_constance_verity</cover>
     </book>
     <book>
         <title>The Last Affair</title>
         <author>Margot Hunt</author>
         <genre>Thriller</genre>
+        <briefDescription>Love may be blind, but obsession’s a real killer.
+
+            Nora Holliday is not that kind of woman. Not the kind who has an illicit affair with a married man. But Josh Landon is everything Nora’s alcoholic husband isn’t. And now she and Josh are so infatuated, they can’t stay away from one another.</briefDescription>
         <icon>@drawable/thriller_icon</icon>
+        <cover>@drawable/the_last_affair</cover>
     </book>
     <book>
         <title>The Last Act</title>
         <author>Brad Parks</author>
         <genre>Mystery</genre>
+        <briefDescription>Struggling stage actor Tommy Jump knows he has to stop chasing applause and start chasing greenbacks. But then he's offered the role of a lifetime: $150,000 for a six-month acting gig. With a newly pregnant fiancee depending on him, it's an opportunity he can't refuse, even though the offer comes from the strangest employer imaginable: the FBI.</briefDescription>
         <icon>@drawable/mystery_icon</icon>
+        <cover>@drawable/the_last_act</cover>
     </book>
 </books>

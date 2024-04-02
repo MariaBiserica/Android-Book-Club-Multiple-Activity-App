@@ -1,6 +1,7 @@
 package com.example.bookclubmultipleactivityapp;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -24,6 +25,12 @@ public class BooksAdapter extends RecyclerView.Adapter<BooksAdapter.BookViewHold
             bookTitle = itemView.findViewById(R.id.book_title);
             bookSubtitle = itemView.findViewById(R.id.book_subtitle);
         }
+
+        public void bind(Book book) {
+            bookIcon.setImageResource(book.getIconDrawable());
+            bookTitle.setText(book.getTitle());
+            bookSubtitle.setText(book.getAuthor() + " - " + book.getGenre());
+        }
     }
 
     public BooksAdapter(Context context, List<Book> booksList) {
@@ -41,10 +48,19 @@ public class BooksAdapter extends RecyclerView.Adapter<BooksAdapter.BookViewHold
     @Override
     public void onBindViewHolder(@NonNull BookViewHolder holder, int position) {
         Book book = booksList.get(position);
-        holder.bookTitle.setText(book.getTitle());
-        holder.bookSubtitle.setText(book.getAuthor() + " - " + book.getGenre());
-        // Set book icon
-        holder.bookIcon.setImageResource(book.getIconDrawable());
+        holder.bind(book);
+
+        // Set click listener for each book item
+        holder.itemView.setOnClickListener(view -> {
+            Intent intent = new Intent(context, BookDetailsActivity2.class);
+            intent.putExtra("title", book.getTitle());
+            intent.putExtra("author", book.getAuthor());
+            intent.putExtra("genre", book.getGenre());
+            intent.putExtra("briefDescription", book.getBriefDescription());
+            intent.putExtra("iconDrawable", book.getIconDrawable());
+            intent.putExtra("coverDrawable", book.getCoverDrawable());
+            context.startActivity(intent);
+        });
     }
 
     @Override
