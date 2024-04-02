@@ -13,16 +13,16 @@
         <icon>@drawable/contemporary_fiction_icon</icon>
     </book>
     <book>
-        <title>The Last Garden</title>
-        <author>Lauren James</author>
-        <genre>Science Fiction</genre>
-        <icon>@drawable/science_fiction_icon</icon>
+        <title>Iron Flame</title>
+        <author>Rebecca Yarros</author>
+        <genre>Fantasy</genre>
+        <icon>@drawable/fantasy_icon</icon>
     </book>
     <book>
-        <title>The Lost Apothecary</title>
-        <author>Sarah Penner</author>
-        <genre>Historical Fiction</genre>
-        <icon>@drawable/historical_fiction_icon</icon>
+        <title>The Housemaid's Secret</title>
+        <author>Freida McFadden</author>
+        <genre>Thriller</genre>
+        <icon>@drawable/thriller_icon</icon>
     </book>
     <book>
         <title>The Gilded Wolves</title>
@@ -47,12 +47,6 @@
         <author>Chuck Wendig</author>
         <genre>Horror</genre>
         <icon>@drawable/horror_icon</icon>
-    </book>
-    <book>
-        <title>The Devil's Hour</title>
-        <author>Rachel Caine</author>
-        <genre>Urban Fantasy</genre>
-        <icon>@drawable/urban_fantasy_icon</icon>
     </book>
     <book>
         <title>The Heart Principle</title>
@@ -97,12 +91,6 @@
         <icon>@drawable/memoir_icon</icon>
     </book>
     <book>
-        <title>The Other Merlin</title>
-        <author>A.J. Sass</author>
-        <genre>Middle Grade Fantasy</genre>
-        <icon>@drawable/middle_grade_fantasy_icon</icon>
-    </book>
-    <book>
         <title>The Last Graduate</title>
         <author>Naomi Novik</author>
         <genre>Fantasy</genre>
@@ -127,12 +115,6 @@
         <icon>@drawable/fantasy_icon</icon>
     </book>
     <book>
-        <title>The Last Girl Ghosted</title>
-        <author>Lisa Unger</author>
-        <genre>Thriller</genre>
-        <icon>@drawable/thriller_icon</icon>
-    </book>
-    <book>
         <title>The Last Fallen Star</title>
         <author>Graci Kim</author>
         <genre>Middle Grade Fantasy</genre>
@@ -155,12 +137,6 @@
         <author>Madeline Martin</author>
         <genre>Historical Fiction</genre>
         <icon>@drawable/historical_fiction_icon</icon>
-    </book>
-    <book>
-        <title>The Last Best Hope</title>
-        <author>James S.A. Corey</author>
-        <genre>Science Fiction</genre>
-        <icon>@drawable/science_fiction_icon</icon>
     </book>
     <book>
         <title>The Last Adventure of Constance Verity</title>
