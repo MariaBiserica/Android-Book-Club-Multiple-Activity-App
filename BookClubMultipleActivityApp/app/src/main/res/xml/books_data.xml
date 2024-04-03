@@ -312,7 +312,7 @@
     </book>
     <book>
         <title>Spare</title>
-        <author>Prince Harry, J.R. Moehringer (Ghostwriter)</author>
+        <author>Prince Harry</author>
         <genre>Memoir</genre>
         <icon>@drawable/memoir_icon</icon>
         <cover>@drawable/spare</cover>
