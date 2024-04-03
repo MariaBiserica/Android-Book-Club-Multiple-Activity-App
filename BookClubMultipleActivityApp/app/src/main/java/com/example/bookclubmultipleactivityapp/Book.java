@@ -13,12 +13,13 @@ public class Book {
     private int numberOfReviews;
     private int numberOfPages;
     private String publishingDate;
+    private String reviewUrl;
 
     // Updated constructor to include iconDrawable
     public Book(String title, String author, String genre, int iconDrawable,
                 int coverDrawable, String briefDescription,
                 String fullDescription, float rating, int numberOfRatings,
-                int numberOfReviews, int numberOfPages, String publishingDate) {
+                int numberOfReviews, int numberOfPages, String publishingDate, String reviewUrl) {
         this.title = title;
         this.author = author;
         this.genre = genre;
@@ -31,6 +32,7 @@ public class Book {
         this.numberOfReviews = numberOfReviews;
         this.numberOfPages = numberOfPages;
         this.publishingDate = publishingDate;
+        this.reviewUrl = reviewUrl;
     }
 
     // Getters
@@ -82,6 +84,10 @@ public class Book {
         return publishingDate;
     }
 
+    public String getReviewUrl() {
+        return reviewUrl;
+    }
+
 
     // Setters
     public void setTitle(String title) {
@@ -131,5 +137,8 @@ public class Book {
     public void setPublishingDate(String publishingDate) {
         this.publishingDate = publishingDate;
     }
-    
+
+    public void setReviewUrl(String reviewUrl) {
+        this.reviewUrl = reviewUrl;
+    }
 }

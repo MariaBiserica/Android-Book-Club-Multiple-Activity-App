@@ -65,6 +65,7 @@ public class BooksAdapter extends RecyclerView.Adapter<BooksAdapter.BookViewHold
             intent.putExtra("numberOfReviews", book.getNumberOfReviews());
             intent.putExtra("numberOfPages", book.getNumberOfPages());
             intent.putExtra("publishingDate", book.getPublishingDate());
+            intent.putExtra("reviewUrl", book.getReviewUrl());
 
             context.startActivity(intent);
         });

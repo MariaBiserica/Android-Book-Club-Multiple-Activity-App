@@ -32,7 +32,6 @@ public class XmlDataParser {
         genreIconMap.put("History", R.drawable.history_icon);
         genreIconMap.put("Middle Grade Mystery", R.drawable.middle_grade_mystery_icon);
         // Add more mappings as necessary
-        // Consider adding a default icon if a genre does not match
         genreIconMap.put("Default", R.drawable.default_icon);
     }
 
@@ -44,7 +43,7 @@ public class XmlDataParser {
             int eventType = parser.getEventType();
             // Initialize variables
             String title = null, author = null, genre = null, briefDescription = null,
-                    fullDescription = null, publishingDate = null;
+                    fullDescription = null, publishingDate = null, reviewUrl = null;
             float rating = 0;
             int iconDrawable = 0, coverDrawable = 0,
                     numberOfRatings = 0, numberOfReviews = 0, numberOfPages = 0;
@@ -69,6 +68,7 @@ public class XmlDataParser {
                             numberOfReviews = 0;
                             numberOfPages = 0;
                             publishingDate = null;
+                            reviewUrl = null;
                         } else if ("title".equals(eltName)) {
                             title = parser.nextText();
                         } else if ("author".equals(eltName)) {
@@ -99,6 +99,8 @@ public class XmlDataParser {
                             numberOfPages = Integer.parseInt(parser.nextText());
                         } else if ("publishingDate".equals(eltName)) {
                             publishingDate = parser.nextText();
+                        } else if ("reviewUrl".equals(eltName)) {
+                            reviewUrl = parser.nextText();
                         }
                         break;
                     case XmlPullParser.END_TAG:
@@ -107,7 +109,7 @@ public class XmlDataParser {
                             // Add the book to the list
                             books.add(new Book(title, author, genre, iconDrawable, coverDrawable,
                                     briefDescription, fullDescription, rating, numberOfRatings,
-                                    numberOfReviews, numberOfPages, publishingDate));
+                                    numberOfReviews, numberOfPages, publishingDate, reviewUrl));
                         }
                         break;
                 }
