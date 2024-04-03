@@ -1,5 +1,5 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
     <solid android:color="@android:color/transparent"/> <!-- Transparent background inside the border -->
-    <stroke android:width="3dp" android:color="#E91E63"/> <!-- Border specification -->
+    <stroke android:width="3dp" android:color="#400117"/> <!-- Border specification -->
     <corners android:radius="4dp"/> <!-- Slightly rounded corners for a smoother look -->
 </shape>
