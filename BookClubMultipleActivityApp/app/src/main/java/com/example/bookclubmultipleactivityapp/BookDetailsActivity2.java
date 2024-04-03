@@ -29,6 +29,7 @@ public class BookDetailsActivity2 extends AppCompatActivity {
         int numberOfReviews = intent.getIntExtra("numberOfReviews", 0);
         int numberOfPages = intent.getIntExtra("numberOfPages", 0);
         String publishingDate = intent.getStringExtra("publishingDate");
+        String reviewUrl = intent.getStringExtra("reviewUrl");
 
         // Use the retrieved data
         setTitle(title); // Optionally, set the title of the activity to the book's title
@@ -56,6 +57,7 @@ public class BookDetailsActivity2 extends AppCompatActivity {
                 detailIntent.putExtra("numberOfReviews", numberOfReviews);
                 detailIntent.putExtra("numberOfPages", numberOfPages);
                 detailIntent.putExtra("publishingDate", publishingDate);
+                detailIntent.putExtra("reviewUrl", reviewUrl);
 
                 Log.d("Activity2", "Passing to Activity3 - Title: " + title);
                 Log.d("Activity2", "Passing to Activity3 - CoverDrawable: " + coverDrawable);
@@ -65,6 +67,7 @@ public class BookDetailsActivity2 extends AppCompatActivity {
                 Log.d("Activity2", "Passing to Activity3 - NumberOfReviews: " + numberOfReviews);
                 Log.d("Activity2", "Passing to Activity3 - NumberOfPages: " + numberOfPages);
                 Log.d("Activity2", "Passing to Activity3 - PublishingDate: " + publishingDate);
+                Log.d("Activity2", "Passing to Activity3 - ReviewUrl: " + reviewUrl);
 
                 startActivity(detailIntent);
             }

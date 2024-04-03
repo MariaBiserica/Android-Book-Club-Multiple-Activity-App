@@ -3,6 +3,7 @@ package com.example.bookclubmultipleactivityapp;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.TextView;
@@ -52,6 +53,17 @@ public class BookDetailsActivity3 extends AppCompatActivity {
         fullDescriptionView.setText(intent.getStringExtra("fullDescription"));
         numberOfPagesView.setText(getString(R.string.number_of_pages, intent.getIntExtra("numberOfPages", 0)));
         publishingDateView.setText(getString(R.string.publishing_date, intent.getStringExtra("publishingDate")));
+
+        // Retrieve the review URL from the intent
+        String reviewUrl = intent.getStringExtra("reviewUrl");
+        Log.d("Activity3", "Received from Activity2 - ReviewUrl: " + reviewUrl);
+        Button viewReviewsButton = findViewById(R.id.view_reviews_button); // Button to Activity 4
+        viewReviewsButton.setOnClickListener(view -> {
+            Intent intentURL = new Intent(BookDetailsActivity3.this, WebInfoActivity4.class);
+            intentURL.putExtra("reviewUrl", reviewUrl); // Pass the review URL directly
+            Log.d("Activity3", "Sending URL: " + reviewUrl);
+            startActivity(intentURL);
+        });
 
         // Back button to return to the main list
         findViewById(R.id.showLessButton).setOnClickListener(view -> finish());
