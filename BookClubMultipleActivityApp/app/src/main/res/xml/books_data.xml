@@ -1,219 +1,559 @@
-<?xml version="1.0" encoding="utf-8"?><!DOCTYPE books [<!ELEMENT books (book)*><!ELEMENT book (title|author|genre|briefDescription|icon|cover)*><!ELEMENT title (#PCDATA)><!ELEMENT author (#PCDATA)><!ELEMENT genre (#PCDATA)><!ELEMENT briefDescription (#PCDATA)><!ELEMENT icon (#PCDATA)><!ELEMENT cover (#PCDATA)>]>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE books [
+    <!ELEMENT books (book)*>
+    <!ELEMENT book (title, author, genre, icon, cover, briefDescription, fullDescription, rating, numberOfRatings, numberOfReviews, numberOfPages, publishingDate)*>
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT author (#PCDATA)>
+    <!ELEMENT genre (#PCDATA)>
+    <!ELEMENT icon (#PCDATA)>
+    <!ELEMENT cover (#PCDATA)>
+    <!ELEMENT briefDescription (#PCDATA)>
+    <!ELEMENT fullDescription (#PCDATA)>
+    <!ELEMENT rating (#PCDATA)>
+    <!ELEMENT numberOfRatings (#PCDATA)>
+    <!ELEMENT numberOfReviews (#PCDATA)>
+    <!ELEMENT numberOfPages (#PCDATA)>
+    <!ELEMENT publishingDate (#PCDATA)>
+    ]>
 <books>
     <book>
         <title>Fourth Wing</title>
         <author>Rebecca Yarros</author>
         <genre>Fantasy</genre>
-        <briefDescription>Enter the brutal and elite world of a war college for dragon riders from USA Today bestselling author Rebecca Yarros.</briefDescription>
         <icon>@drawable/fantasy_icon</icon>
         <cover>@drawable/fourth_wing</cover>
+        <briefDescription>Enter the brutal and elite world of a war college for dragon riders from USA Today bestselling author Rebecca Yarros.</briefDescription>
+        <fullDescription>Enter the brutal and elite world of a war college for dragon riders from USA Today bestselling author Rebecca Yarros.
+
+            Twenty-year-old Violet Sorrengail was supposed to enter the Scribe Quadrant, living a quiet life among books and history. Now, the commanding general—also known as her tough-as-talons mother—has ordered Violet to join the hundreds of candidates striving to become the elite of Navarre: dragon riders.
+
+            But when you’re smaller than everyone else and your body is brittle, death is only a heartbeat away...because dragons don’t bond to “fragile” humans. They incinerate them.
+
+            With fewer dragons willing to bond than cadets, most would kill Violet to better their own chances of success. The rest would kill her just for being her mother’s daughter—like Xaden Riorson, the most powerful and ruthless wingleader in the Riders Quadrant.
+
+            She’ll need every edge her wits can give her just to see the next sunrise.
+
+            Yet, with every day that passes, the war outside grows more deadly, the kingdom's protective wards are failing, and the death toll continues to rise. Even worse, Violet begins to suspect leadership is hiding a terrible secret.
+
+            Friends, enemies, lovers. Everyone at Basgiath War College has an agenda—because once you enter, there are only two ways out: graduate or die</fullDescription>
+        <rating>4.59</rating>
+        <numberOfRatings>1464919</numberOfRatings>
+        <numberOfReviews>199534</numberOfReviews>
+        <numberOfPages>498</numberOfPages>
+        <publishingDate>May 2, 2023</publishingDate>
     </book>
     <book>
         <title>Happy Place</title>
         <author>Emily Henry</author>
         <genre>Contemporary Fiction</genre>
-        <briefDescription>A couple who broke up months ago make a pact to pretend to still be together for their annual weeklong vacation with their best friends in this glittering and wise new novel from #1 New York Times bestselling author Emily Henry.</briefDescription>
         <icon>@drawable/contemporary_fiction_icon</icon>
         <cover>@drawable/happy_place</cover>
+        <briefDescription>A couple who broke up months ago make a pact to pretend to still be together for their annual weeklong vacation with their best friends in this glittering and wise new novel from #1 New York Times bestselling author Emily Henry.</briefDescription>
+        <fullDescription>Harriet and Wyn have been the perfect couple since they met in college—they go together like salt and pepper, honey and tea, lobster and rolls. Except, now—for reasons they’re still not discussing—they don’t.
+
+            They broke up six months ago. And still haven’t told their best friends.
+
+            Which is how they find themselves sharing the largest bedroom at the Maine cottage that has been their friend group’s yearly getaway for the last decade. Their annual respite from the world, where for one vibrant, blue week they leave behind their daily lives; have copious amounts of cheese, wine, and seafood; and soak up the salty coastal air with the people who understand them most.
+
+            Only this year, Harriet and Wyn are lying through their teeth while trying not to notice how desperately they still want each other. Because the cottage is for sale and this is the last week they’ll all have together in this place. They can’t stand to break their friends’ hearts, and so they’ll play their parts. Harriet will be the driven surgical resident who never starts a fight, and Wyn will be the laid-back charmer who never lets the cracks show. It’s a flawless plan (if you look at it from a great distance and through a pair of sunscreen-smeared sunglasses). After years of being in love, how hard can it be to fake it for one week… in front of those who know you best?
+
+            A couple who broke up months ago make a pact to pretend to still be together for their annual weeklong vacation with their best friends in this glittering and wise new novel from #1 New York Times bestselling author Emily Henry.</fullDescription>
+        <rating>4.02</rating>
+        <numberOfRatings>769763</numberOfRatings>
+        <numberOfReviews>92470</numberOfReviews>
+        <numberOfPages>400</numberOfPages>
+        <publishingDate>April 25, 2023</publishingDate>
     </book>
     <book>
         <title>Iron Flame</title>
         <author>Rebecca Yarros</author>
         <genre>Fantasy</genre>
-        <briefDescription>“The first year is when some of us lose our lives. The second year is when the rest of us lose our humanity.” —Xaden Riorson</briefDescription>
         <icon>@drawable/fantasy_icon</icon>
         <cover>@drawable/iron_flame</cover>
+        <briefDescription>“The first year is when some of us lose our lives. The second year is when the rest of us lose our humanity.” —Xaden Riorson</briefDescription>
+        <fullDescription>“The first year is when some of us lose our lives. The second year is when the rest of us lose our humanity.” —Xaden Riorson
+
+            Everyone expected Violet Sorrengail to die during her first year at Basgiath War College—Violet included. But Threshing was only the first impossible test meant to weed out the weak-willed, the unworthy, and the unlucky.
+
+            Now the real training begins, and Violet’s already wondering how she’ll get through. It’s not just that it’s grueling and maliciously brutal, or even that it’s designed to stretch the riders’ capacity for pain beyond endurance. It’s the new vice commandant, who’s made it his personal mission to teach Violet exactly how powerless she is–unless she betrays the man she loves.
+
+            Although Violet’s body might be weaker and frailer than everyone else’s, she still has her wits—and a will of iron. And leadership is forgetting the most important lesson Basgiath has taught her: Dragon riders make their own rules.
+
+            But a determination to survive won’t be enough this year.
+
+            Because Violet knows the real secret hidden for centuries at Basgiath War College—and nothing, not even dragon fire, may be enough to save them in the end.</fullDescription>
+        <rating>4.35</rating>
+        <numberOfRatings>890992</numberOfRatings>
+        <numberOfReviews>106034</numberOfReviews>
+        <numberOfPages>640</numberOfPages>
+        <publishingDate>November 7, 2023</publishingDate>
     </book>
     <book>
         <title>The Housemaid's Secret</title>
         <author>Freida McFadden</author>
         <genre>Thriller</genre>
-        <briefDescription>As he continues showing me their incredible penthouse apartment, I have a terrible feeling about the woman behind closed doors. But I can't risk losing this job – not if I want to keep my darkest secret safe . . .</briefDescription>
         <icon>@drawable/thriller_icon</icon>
         <cover>@drawable/the_housemaids_secret</cover>
+        <briefDescription>As he continues showing me their incredible penthouse apartment, I have a terrible feeling about the woman behind closed doors. But I can't risk losing this job – not if I want to keep my darkest secret safe . . .</briefDescription>
+        <fullDescription>As he continues showing me their incredible penthouse apartment, I have a terrible feeling about the woman behind closed doors. But I can't risk losing this job – not if I want to keep my darkest secret safe . . .
+
+            It's hard to find an employer who doesn't ask too many questions about my past. So I thank my lucky stars that the Garricks miraculously give me a job, cleaning their stunning penthouse with views across the city and preparing fancy meals in their shiny kitchen. I can work here for a while, stay quiet until I get what I want. It's almost perfect. But I still haven't met Mrs Garrick, or seen inside the guest bedroom. I'm sure I hear her crying. I notice spots of blood around the neck of her white nightgowns when I'm doing laundry. And one day I can't help but knock on the door. When it gently swings open, what I see inside changes everything...
+
+            That's when I make a promise. After all, I've done this before. I can protect Mrs. Garrick while keeping my own secrets locked up safe. Douglas Garrick has done wrong. He is going to pay. It's simply a question of how far I'm willing to go...</fullDescription>
+        <rating>4.27</rating>
+        <numberOfRatings>489597</numberOfRatings>
+        <numberOfReviews>33632</numberOfReviews>
+        <numberOfPages>318</numberOfPages>
+        <publishingDate>February 15, 2023</publishingDate>
     </book>
     <book>
         <title>The Gilded Wolves</title>
         <author>Roshani Chokshi</author>
         <genre>Young Adult Fantasy</genre>
-        <briefDescription>From New York Times bestselling author Roshani Chokshi comes a novel set in Paris during a time of extraordinary change--one that is full of mystery, decadence, and dangerous desires...</briefDescription>
         <icon>@drawable/young_adult_fantasy_icon</icon>
         <cover>@drawable/the_gilded_wolves</cover>
+        <briefDescription>From New York Times bestselling author Roshani Chokshi comes a novel set in Paris during a time of extraordinary change--one that is full of mystery, decadence, and dangerous desires...</briefDescription>
+        <fullDescription>From New York Times bestselling author Roshani Chokshi comes a novel set in Paris during a time of extraordinary change--one that is full of mystery, decadence, and dangerous desires...
+
+            It's 1889. The city is on the cusp of industry and power, and the Exposition Universelle has breathed new life into the streets and dredged up ancient secrets. Here, no one keeps tabs on dark truths better than treasure-hunter and wealthy hotelier Séverin Montagnet-Alarie. When the elite, ever-powerful Order of Babel coerces him to help them on a mission, Séverin is offered a treasure that he never imagined: his true inheritance.
+
+            To hunt down the ancient artifact the Order seeks, Séverin calls upon a band of unlikely experts: An engineer with a debt to pay. A historian banished from his home. A dancer with a sinister past. And a brother in arms if not blood.
+
+            Together, they will join Séverin as he explores the dark, glittering heart of Paris. What they find might change the course of history--but only if they can stay alive.</fullDescription>
+        <rating>3.72</rating>
+        <numberOfRatings>46438</numberOfRatings>
+        <numberOfReviews>10291</numberOfReviews>
+        <numberOfPages>388</numberOfPages>
+        <publishingDate>January 15, 2019</publishingDate>
     </book>
     <book>
         <title>The Echo Wife</title>
         <author>Sarah Gailey</author>
         <genre>Science Fiction</genre>
+        <icon>@drawable/science_fiction_icon</icon>
+        <cover>@drawable/the_echo_wife</cover>
         <briefDescription>I’m embarrassed, still, by how long it took me to notice. Everything was right there in the open, right there in front of me, but it still took me so long to see the person I had married.
 
             It took me so long to hate him.</briefDescription>
-        <icon>@drawable/science_fiction_icon</icon>
-        <cover>@drawable/the_echo_wife</cover>
+        <fullDescription>I’m embarrassed, still, by how long it took me to notice. Everything was right there in the open, right there in front of me, but it still took me so long to see the person I had married.
+
+            It took me so long to hate him.
+
+            Martine is a genetically cloned replica made from Evelyn Caldwell’s award-winning research. She’s patient and gentle and obedient. She’s everything Evelyn swore she’d never be.
+
+            And she’s having an affair with Evelyn’s husband.
+
+            Now, the cheating bastard is dead, and both Caldwell wives have a mess to clean up.
+
+            Good thing Evelyn Caldwell is used to getting her hands dirty.</fullDescription>
+        <rating>3.61</rating>
+        <numberOfRatings>32744</numberOfRatings>
+        <numberOfReviews>5915</numberOfReviews>
+        <numberOfPages>256</numberOfPages>
+        <publishingDate>February 16, 2021</publishingDate>
     </book>
     <book>
         <title>The Hawthorne Legacy</title>
         <author>Jennifer Lynn Barnes</author>
         <genre>Mystery</genre>
-        <briefDescription>Intrigue, riches, and romance abound in this thrilling sequel to the New York Times bestselling The Inheritance Games perfect for fans of Karen McManus and Holly Jackson.</briefDescription>
         <icon>@drawable/mystery_icon</icon>
         <cover>@drawable/the_hawthorne_legacy</cover>
+        <briefDescription>Intrigue, riches, and romance abound in this thrilling sequel to the New York Times bestselling The Inheritance Games perfect for fans of Karen McManus and Holly Jackson.</briefDescription>
+        <fullDescription>Intrigue, riches, and romance abound in this thrilling sequel to the New York Times bestselling The Inheritance Games perfect for fans of Karen McManus and Holly Jackson.
+
+            The Inheritance Games ended with a bombshell, and now heiress Avery Grambs has to pick up the pieces and find the man who might hold the answers to all of her questions - including why Tobias Hawthorne left his entire fortune to Avery, a virtual stranger, rather than to his own daughters or grandsons.
+
+            Thanks to a DNA test, Avery knows that she's not a Hawthorne by blood, but clues pile up hinting at a deeper connection to the family than she had ever imagined. As the mystery grows and the plot thickens, Grayson and Jameson, the enigmatic and magnetic Hawthorne grandsons, continue to pull Avery in different directions. And there are threats lurking around every corner, as adversaries emerge who will stop at nothing to see Avery out of the picture - by any means necessary.
+
+            With nonstop action, aspirational jet-setting, family intrigue, swoonworthy romance, and billions of dollars hanging in the balance, The Hawthorne Legacy will thrill Jennifer Lynn Barnes fans and new readers alike.</fullDescription>
+        <rating>4.22</rating>
+        <numberOfRatings>407733</numberOfRatings>
+        <numberOfReviews>42062</numberOfReviews>
+        <numberOfPages>380</numberOfPages>
+        <publishingDate>September 7, 2021</publishingDate>
     </book>
     <book>
         <title>The Book of Accidents</title>
         <author>Chuck Wendig</author>
         <genre>Horror</genre>
+        <icon>@drawable/horror_icon</icon>
+        <cover>@drawable/the_book_of_accidents</cover>
         <briefDescription>Long ago, Nathan lived in a house in the country with his abusive father—and has never told his family what happened there.
 
             Long ago, Maddie was a little girl making dolls in her bedroom when she saw something she shouldn’t have—and is trying to remember that lost trauma by making haunting sculptures.</briefDescription>
-        <icon>@drawable/horror_icon</icon>
-        <cover>@drawable/the_book_of_accidents</cover>
+        <fullDescription>Long ago, Nathan lived in a house in the country with his abusive father—and has never told his family what happened there.
+
+            Long ago, Maddie was a little girl making dolls in her bedroom when she saw something she shouldn’t have—and is trying to remember that lost trauma by making haunting sculptures.
+
+            Long ago, something sinister, something hungry, walked in the tunnels and the mountains and the coal mines of their hometown in rural Pennsylvania.
+
+            Now, Nate and Maddie Graves are married, and they have moved back to their hometown with their son, Oliver.
+
+            And now what happened long ago is happening again . . . and it is happening to Oliver. He meets a strange boy who becomes his best friend, a boy with secrets of his own and a taste for dark magic.
+
+            This dark magic puts them at the heart of a battle of good versus evil and a fight for the soul of the family—and perhaps for all of the world. But the Graves family has a secret weapon in this battle: their love for one another.</fullDescription>
+        <rating>3.74</rating>
+        <numberOfRatings>22662</numberOfRatings>
+        <numberOfReviews>3716</numberOfReviews>
+        <numberOfPages>530</numberOfPages>
+        <publishingDate>July 20, 2021</publishingDate>
     </book>
     <book>
         <title>The Heart Principle</title>
         <author>Helen Hoang</author>
         <genre>Romance</genre>
-        <briefDescription>A woman struggling with burnout learns to embrace the unexpected—and the man she enlists to help her—in this new New York Times bestselling romance by Helen Hoang.</briefDescription>
         <icon>@drawable/romance_icon</icon>
         <cover>@drawable/the_heart_principle</cover>
+        <briefDescription>A woman struggling with burnout learns to embrace the unexpected—and the man she enlists to help her—in this new New York Times bestselling romance by Helen Hoang.</briefDescription>
+        <fullDescription>A woman struggling with burnout learns to embrace the unexpected—and the man she enlists to help her—in this new New York Times bestselling romance by Helen Hoang.
+
+            When violinist Anna Sun accidentally achieves career success with a viral YouTube video, she finds herself incapacitated and burned out from her attempts to replicate that moment. And when her longtime boyfriend announces he wants an open relationship before making a final commitment, a hurt and angry Anna decides that if he wants an open relationship, then she does, too. Translation: She’s going to embark on a string of one-night stands. The more unacceptable the men, the better.
+
+            That’s where tattooed, motorcycle-riding Quan Diep comes in. Their first attempt at a one-night stand fails, as does their second, and their third, because being with Quan is more than sex—he accepts Anna on an unconditional level that she herself has just started to understand. However, when tragedy strikes Anna’s family she takes on a role that she is ill-suited for, until the burden of expectations threatens to destroy her. Anna and Quan have to fight for their chance at love, but to do that, they also have to fight for themselves.</fullDescription>
+        <rating>3.95</rating>
+        <numberOfRatings>113344</numberOfRatings>
+        <numberOfReviews>15727</numberOfReviews>
+        <numberOfPages>339</numberOfPages>
+        <publishingDate>August 31, 2021</publishingDate>
     </book>
     <book>
         <title>The Final Girl Support Group</title>
         <author>Grady Hendrix</author>
         <genre>Horror</genre>
-        <briefDescription>In horror movies, the final girls are the ones left standing when the credits roll. They made it through the worst night of their lives…but what happens after?</briefDescription>
         <icon>@drawable/horror_icon</icon>
         <cover>@drawable/the_final_girl_support_group</cover>
+        <briefDescription>In horror movies, the final girls are the ones left standing when the credits roll. They made it through the worst night of their lives…but what happens after?</briefDescription>
+        <fullDescription>In horror movies, the final girls are the ones left standing when the credits roll. They made it through the worst night of their lives…but what happens after?
+
+            Like his bestselling novel The Southern Book Club’s Guide to Slaying Vampires, Grady Hendrix’s latest is a fast-paced, frightening, and wickedly humorous thriller. From chain saws to summer camp slayers, The Final Girl Support Group pays tribute to and slyly subverts our most popular horror films—movies like The Texas Chainsaw Massacre , A Nightmare on Elm Street , and Scream.
+
+            Lynnette Tarkington is a real-life final girl who survived a massacre. For more than a decade, she’s been meeting with five other final girls and their therapist in a support group for those who survived the unthinkable, working to put their lives back together. Then one woman misses a meeting, and their worst fears are realized—someone knows about the group and is determined to rip their lives apart again, piece by piece.
+
+            But the thing about final girls is that no matter how bad the odds, how dark the night, how sharp the knife, they will never, ever give up.</fullDescription>
+        <rating>3.52</rating>
+        <numberOfRatings>134640</numberOfRatings>
+        <numberOfReviews>19646</numberOfReviews>
+        <numberOfPages>352</numberOfPages>
+        <publishingDate>July 13, 2021</publishingDate>
     </book>
     <book>
         <title>The Ex Hex</title>
         <author>Erin Sterling</author>
         <genre>Paranormal Romance</genre>
-        <briefDescription>New York Times bestselling author Rachel Hawkins, writing as Erin Sterling, casts a spell with a spine-tingling romance full of wishes, witches, and hexes gone wrong.</briefDescription>
         <icon>@drawable/paranormal_romance_icon</icon>
         <cover>@drawable/the_ex_hex</cover>
+        <briefDescription>New York Times bestselling author Rachel Hawkins, writing as Erin Sterling, casts a spell with a spine-tingling romance full of wishes, witches, and hexes gone wrong.</briefDescription>
+        <fullDescription>New York Times bestselling author Rachel Hawkins, writing as Erin Sterling, casts a spell with a spine-tingling romance full of wishes, witches, and hexes gone wrong.
+
+            Nine years ago, Vivienne Jones nursed her broken heart like any young witch would: vodka, weepy music, bubble baths…and a curse on the horrible boyfriend. Sure, Vivi knows she shouldn’t use her magic this way, but with only an “orchard hayride” scented candle on hand, she isn’t worried it will cause him anything more than a bad hair day or two.
+
+            That is until Rhys Penhallow, descendent of the town’s ancestors, breaker of hearts, and annoyingly just as gorgeous as he always was, returns to Graves Glen, Georgia. What should be a quick trip to recharge the town’s ley lines and make an appearance at the annual fall festival turns disastrously wrong. With one calamity after another striking Rhys, Vivi realizes her silly little Ex Hex may not have been so harmless after all.
+
+            Suddenly, Graves Glen is under attack from murderous wind-up toys, a pissed off ghost, and a talking cat with some interesting things to say. Vivi and Rhys have to ignore their off the charts chemistry to work together to save the town and find a way to break the break-up curse before it’s too late.</fullDescription>
+        <rating>3.50</rating>
+        <numberOfRatings>198605</numberOfRatings>
+        <numberOfReviews>29056</numberOfReviews>
+        <numberOfPages>308</numberOfPages>
+        <publishingDate>September 28, 2021</publishingDate>
     </book>
     <book>
         <title>The Soulmate Equation</title>
         <author>Christina Lauren</author>
         <genre>Contemporary Romance</genre>
-        <briefDescription>Single mom Jess Davis is a data and statistics wizard, but no amount of number crunching can convince her to step back into the dating world. After all, her father was never around, her hard-partying mother disappeared when she was six, and her ex decided he wasn’t “father material” before her daughter was even born. Jess holds her loved ones close but working constantly to stay afloat is hard...and lonely.</briefDescription>
         <icon>@drawable/contemporary_romance_icon</icon>
         <cover>@drawable/the_soulmate_equation</cover>
+        <briefDescription>Single mom Jess Davis is a data and statistics wizard, but no amount of number crunching can convince her to step back into the dating world. After all, her father was never around, her hard-partying mother disappeared when she was six, and her ex decided he wasn’t “father material” before her daughter was even born. Jess holds her loved ones close but working constantly to stay afloat is hard...and lonely.</briefDescription>
+        <fullDescription>Single mom Jess Davis is a data and statistics wizard, but no amount of number crunching can convince her to step back into the dating world. After all, her father was never around, her hard-partying mother disappeared when she was six, and her ex decided he wasn’t “father material” before her daughter was even born. Jess holds her loved ones close but working constantly to stay afloat is hard...and lonely.
+
+            But then Jess hears about GeneticAlly, a buzzy new DNA-based matchmaking company that’s predicted to change dating forever. Finding a soulmate through DNA? The reliability of numbers: This Jess understands.
+
+            At least she thought she did, until her test shows an unheard-of 98 percent compatibility with another subject in the database: GeneticAlly’s founder, Dr. River Peña. This is one number she can’t wrap her head around, because she already knows Dr. Peña. The stuck-up, stubborn man is without a doubt not her soulmate. But GeneticAlly has a proposition: Get to know him and we’ll pay you. Jess—who is barely making ends meet—is in no position to turn it down, despite her skepticism about the project and her dislike for River. As the pair are dragged from one event to the next as the “Diamond” pairing that could launch GeneticAlly’s valuation sky-high, Jess begins to realize that there might be more to the scientist—and the science behind a soulmate—than she thought.
+
+            The Soulmate Equation proves that the delicate balance between fate and choice can never be calculated.</fullDescription>
+        <rating>4.01</rating>
+        <numberOfRatings>229468</numberOfRatings>
+        <numberOfReviews>25910</numberOfReviews>
+        <numberOfPages>416</numberOfPages>
+        <publishingDate>May 28, 2021</publishingDate>
     </book>
     <book>
         <title>The Inheritance of Orquídea Divina</title>
         <author>Zoraida Córdova</author>
         <genre>Fantasy</genre>
-        <briefDescription>The Montoyas are used to a life without explanations. They know better than to ask why the pantry never seems to run low or empty, or why their matriarch won’t ever leave their home in Four Rivers—even for graduations, weddings, or baptisms. But when Orquídea Divina invites them to her funeral and to collect their inheritance, they hope to learn the secrets that she has held onto so tightly their whole lives. Instead, Orquídea is transformed, leaving them with more questions than answers.</briefDescription>
         <icon>@drawable/fantasy_icon</icon>
         <cover>@drawable/the_inheritance_of_orquidea_divina</cover>
+        <briefDescription>The Montoyas are used to a life without explanations. They know better than to ask why the pantry never seems to run low or empty, or why their matriarch won’t ever leave their home in Four Rivers—even for graduations, weddings, or baptisms. But when Orquídea Divina invites them to her funeral and to collect their inheritance, they hope to learn the secrets that she has held onto so tightly their whole lives. Instead, Orquídea is transformed, leaving them with more questions than answers.</briefDescription>
+        <fullDescription>The Montoyas are used to a life without explanations. They know better than to ask why the pantry never seems to run low or empty, or why their matriarch won’t ever leave their home in Four Rivers—even for graduations, weddings, or baptisms. But when Orquídea Divina invites them to her funeral and to collect their inheritance, they hope to learn the secrets that she has held onto so tightly their whole lives. Instead, Orquídea is transformed, leaving them with more questions than answers.
+
+            Seven years later, her gifts have manifested in different ways for Marimar, Rey, and Tatinelly’s daughter, Rhiannon, granting them unexpected blessings. But soon, a hidden figure begins to tear through their family tree, picking them off one by one as it seeks to destroy Orquídea’s line. Determined to save what’s left of their family and uncover the truth behind their inheritance, the four descendants travel to Ecuador—to the place where Orquídea buried her secrets and broken promises and never looked back.</fullDescription>
+        <rating>3.93</rating>
+        <numberOfRatings>28705</numberOfRatings>
+        <numberOfReviews>4858</numberOfReviews>
+        <numberOfPages>336</numberOfPages>
+        <publishingDate>September 7, 2021</publishingDate>
     </book>
     <book>
         <title>The Bone Season</title>
         <author>Samantha Shannon</author>
         <genre>Dystopian Fantasy</genre>
-        <briefDescription>The year is 2059. Nineteen-year-old Paige Mahoney is working in the criminal underworld of Scion London, based at Seven Dials, employed by a man named Jaxon Hall. Her job: is to scout for information by breaking into people’s minds. For Paige is a dreamwalker, a clairvoyant, and, in the world of Scion, she commits treason simply by breathing.</briefDescription>
         <icon>@drawable/dystopian_fantasy_icon</icon>
         <cover>@drawable/the_bone_season</cover>
+        <briefDescription>The year is 2059. Nineteen-year-old Paige Mahoney is working in the criminal underworld of Scion London, based at Seven Dials, employed by a man named Jaxon Hall. Her job: is to scout for information by breaking into people’s minds. For Paige is a dreamwalker, a clairvoyant, and, in the world of Scion, she commits treason simply by breathing.</briefDescription>
+        <fullDescription>The year is 2059. Nineteen-year-old Paige Mahoney is working in the criminal underworld of Scion London, based at Seven Dials, employed by a man named Jaxon Hall. Her job: is to scout for information by breaking into people’s minds. For Paige is a dreamwalker, a clairvoyant, and, in the world of Scion, she commits treason simply by breathing.
+
+            It is raining the day her life changes forever. Attacked, drugged, and kidnapped, Paige is transported to Oxford – a city kept secret for two hundred years, controlled by a powerful, otherworldly race. Paige is assigned to Warden, a Rephaite with mysterious motives. He is her master. Her trainer. Her natural enemy. But if Paige wants to regain her freedom she must allow herself to be nurtured in this prison where she is meant to die.
+
+            The Bone Season introduces a compelling heroine and also introduces an extraordinary young writer, with huge ambition and a teeming imagination. Samantha Shannon has created a bold new reality in this riveting debut.</fullDescription>
+        <rating>3.81</rating>
+        <numberOfRatings>81569</numberOfRatings>
+        <numberOfReviews>11611</numberOfReviews>
+        <numberOfPages>466</numberOfPages>
+        <publishingDate>August 20, 2013</publishingDate>
     </book>
     <book>
-        <title>The Groom Will Keep His Name</title>
-        <author>Matt Ortile</author>
+        <title>Spare</title>
+        <author>Prince Harry, J.R. Moehringer (Ghostwriter)</author>
         <genre>Memoir</genre>
-        <briefDescription>When Matt Ortile moved from Manila to Las Vegas, the locals couldn't pronounce his name. Harassed as a kid for his brown skin, accent, and femininity, he believed he could belong in America by marrying a white man and shedding his Filipino identity. This was the first myth he told himself. The Groom Will Keep His Name explores the various tales Ortile spun about what it means to be a Vassar Girl, an American Boy, and a Filipino immigrant in New York looking to build a home.</briefDescription>
         <icon>@drawable/memoir_icon</icon>
-        <cover>@drawable/the_groom_will_keep_his_name</cover>
+        <cover>@drawable/spare</cover>
+        <briefDescription>It was one of the most searing images of the twentieth century: two young boys, two princes, walking behind their mother’s coffin as the world watched in sorrow—and horror. As Princess Diana was laid to rest, billions wondered what Prince William and Prince Harry must be thinking and feeling—and how their lives would play out from that point on.</briefDescription>
+        <fullDescription>It was one of the most searing images of the twentieth century: two young boys, two princes, walking behind their mother’s coffin as the world watched in sorrow—and horror. As Princess Diana was laid to rest, billions wondered what Prince William and Prince Harry must be thinking and feeling—and how their lives would play out from that point on.
+
+            For Harry, this is that story at last.
+
+            Before losing his mother, twelve-year-old Prince Harry was known as the carefree one, the happy-go-lucky Spare to the more serious Heir. Grief changed everything. He struggled at school, struggled with anger, with loneliness—and, because he blamed the press for his mother’s death, he struggled to accept life in the spotlight.
+
+            At twenty-one, he joined the British Army. The discipline gave him structure, and two combat tours made him a hero at home. But he soon felt more lost than ever, suffering from post-traumatic stress and prone to crippling panic attacks. Above all, he couldn’t find true love.
+
+            Then he met Meghan. The world was swept away by the couple’s cinematic romance and rejoiced in their fairy-tale wedding. But from the beginning, Harry and Meghan were preyed upon by the press, subjected to waves of abuse, racism, and lies. Watching his wife suffer, their safety and mental health at risk, Harry saw no other way to prevent the tragedy of history repeating itself but to flee his mother country. Over the centuries, leaving the Royal Family was an act few had dared. The last to try, in fact, had been his mother. . . .
+
+            For the first time, Prince Harry tells his own story, chronicling his journey with raw, unflinching honesty. A landmark publication, Spare is full of insight, revelation, self-examination, and hard-won wisdom about the eternal power of love over grief.</fullDescription>
+        <rating>3.86</rating>
+        <numberOfRatings>352022</numberOfRatings>
+        <numberOfReviews>39053</numberOfReviews>
+        <numberOfPages>410</numberOfPages>
+        <publishingDate>January 10, 2023</publishingDate>
     </book>
     <book>
         <title>The Last Graduate</title>
         <author>Naomi Novik</author>
         <genre>Fantasy</genre>
-        <briefDescription>A budding dark sorceress determined not to use her formidable powers uncovers yet more secrets about the workings of her world in the stunning sequel to A Deadly Education, the start of Naomi Novik’s groundbreaking crossover series.</briefDescription>
         <icon>@drawable/fantasy_icon</icon>
         <cover>@drawable/the_last_graduate</cover>
+        <briefDescription>A budding dark sorceress determined not to use her formidable powers uncovers yet more secrets about the workings of her world in the stunning sequel to A Deadly Education, the start of Naomi Novik’s groundbreaking crossover series.</briefDescription>
+        <fullDescription>A budding dark sorceress determined not to use her formidable powers uncovers yet more secrets about the workings of her world in the stunning sequel to A Deadly Education, the start of Naomi Novik’s groundbreaking crossover series.
+
+            At the Scholomance, El, Orion, and the other students are faced with their final year—and the looming specter of graduation, a deadly ritual that leaves few students alive in its wake. El is determined that her chosen group will survive, but it is a prospect that is looking harder by the day as the savagery of the school ramps up. Until El realizes that sometimes winning the game means throwing out all the rules . . .</fullDescription>
+        <rating>4.26</rating>
+        <numberOfRatings>98465</numberOfRatings>
+        <numberOfReviews>12126</numberOfReviews>
+        <numberOfPages>388</numberOfPages>
+        <publishingDate>September 28, 2021</publishingDate>
     </book>
     <book>
         <title>The Last House on Needless Street</title>
         <author>Catriona Ward</author>
         <genre>Thriller</genre>
+        <icon>@drawable/thriller_icon</icon>
+        <cover>@drawable/the_last_house_on_needless_street</cover>
         <briefDescription>This is the story of a serial killer. A stolen child. Revenge. Death. And an ordinary house at the end of an ordinary street.
 
             All these things are true. And yet they are all lies...</briefDescription>
-        <icon>@drawable/thriller_icon</icon>
-        <cover>@drawable/the_last_house_on_needless_street</cover>
+
+        <fullDescription>This is the story of a serial killer. A stolen child. Revenge. Death. And an ordinary house at the end of an ordinary street.
+
+            All these things are true. And yet they are all lies...
+
+            You think you know what's inside the last house on Needless Street. You think you've read this story before. That's where you're wrong.
+
+            In the dark forest at the end of Needless Street, lies something buried. But it's not what you think...</fullDescription>
+        <rating>3.86</rating>
+        <numberOfRatings>95862</numberOfRatings>
+        <numberOfReviews>16634</numberOfReviews>
+        <numberOfPages>335</numberOfPages>
+        <publishingDate>March 18, 2021</publishingDate>
     </book>
     <book>
         <title>The Last Chance Library</title>
         <author>Freya Sampson</author>
         <genre>Contemporary Fiction</genre>
-        <briefDescription>June Jones emerges from her shell to fight for her beloved local library, and through the efforts and support of an eclectic group of library patrons, she discovers life-changing friendships along the way.</briefDescription>
         <icon>@drawable/contemporary_fiction_icon</icon>
         <cover>@drawable/the_last_chance_library</cover>
+        <briefDescription>June Jones emerges from her shell to fight for her beloved local library, and through the efforts and support of an eclectic group of library patrons, she discovers life-changing friendships along the way.</briefDescription>
+        <fullDescription>June Jones emerges from her shell to fight for her beloved local library, and through the efforts and support of an eclectic group of library patrons, she discovers life-changing friendships along the way.
+
+            Lonely librarian June Jones has never left the sleepy English village where she grew up. Shy and reclusive, the thirty-year-old would rather spend her time buried in books than venture out into the world. But when her library is threatened with closure, June is forced to emerge from behind the shelves to save the heart of her community and the place that holds the dearest memories of her mother.
+
+            Joining a band of eccentric yet dedicated locals in a campaign to keep the library, June opens herself up to other people for the first time since her mother died. It just so happens that her old school friend Alex Chen is back in town and willing to lend a helping hand. The kindhearted lawyer's feelings for her are obvious to everyone but June, who won't believe that anyone could ever care for her in that way.
+
+            To save the place and the books that mean so much to her, June must finally make some changes to her life. For once, she's determined not to go down without a fight. And maybe, in fighting for her cherished library, June can save herself, too.</fullDescription>
+        <rating>3.75</rating>
+        <numberOfRatings>26596</numberOfRatings>
+        <numberOfReviews>4125</numberOfReviews>
+        <numberOfPages>336</numberOfPages>
+        <publishingDate>August 31, 2021</publishingDate>
     </book>
     <book>
         <title>The Last Legacy</title>
         <author>Adrienne Young</author>
         <genre>Fantasy</genre>
-        <briefDescription>When a letter from her uncle Henrik arrives on Bryn Roth's eighteenth birthday, summoning her back to Bastian, Bryn is eager to prove herself and finally take her place in her long-lost family.</briefDescription>
         <icon>@drawable/fantasy_icon</icon>
         <cover>@drawable/the_last_legacy</cover>
+        <briefDescription>When a letter from her uncle Henrik arrives on Bryn Roth's eighteenth birthday, summoning her back to Bastian, Bryn is eager to prove herself and finally take her place in her long-lost family.</briefDescription>
+        <fullDescription>When a letter from her uncle Henrik arrives on Bryn Roth's eighteenth birthday, summoning her back to Bastian, Bryn is eager to prove herself and finally take her place in her long-lost family.
+
+            Henrik has plans for Bryn, but she must win everyone’s trust if she wants to hold any power in the delicate architecture of the family. It doesn’t take long for her to see that the Roths are entangled in shadows. Despite their growing influence in upscale Bastian, their hands are still in the kind of dirty business that got Bryn’s parents killed years ago. With a forbidden romance to contend with and dangerous work ahead, the cost of being accepted into the Roths may be more than Bryn can pay.
+
+            New York Times bestselling author Adrienne Young returns with The Last Legacy, a captivating standalone about family and blood ties, reinventing yourself, and controlling your own destiny.</fullDescription>
+        <rating>3.97</rating>
+        <numberOfRatings>9223</numberOfRatings>
+        <numberOfReviews>1420</numberOfReviews>
+        <numberOfPages>322</numberOfPages>
+        <publishingDate>September 7, 2021</publishingDate>
     </book>
     <book>
         <title>The Last Fallen Star</title>
         <author>Graci Kim</author>
         <genre>Middle Grade Fantasy</genre>
-        <briefDescription>Best-selling author Rick Riordan presents Graci Kim's thrilling debut, now in paperback, about an adopted Korean-American girl who discovers her heritage and her magic on a perilous journey to save her witch clan family.</briefDescription>
         <icon>@drawable/middle_grade_fantasy_icon</icon>
         <cover>@drawable/the_last_fallen_star</cover>
+        <briefDescription>Best-selling author Rick Riordan presents Graci Kim's thrilling debut, now in paperback, about an adopted Korean-American girl who discovers her heritage and her magic on a perilous journey to save her witch clan family.</briefDescription>
+        <fullDescription>Best-selling author Rick Riordan presents Graci Kim's thrilling debut, now in paperback, about an adopted Korean-American girl who discovers her heritage and her magic on a perilous journey to save her witch clan family.
+
+            "Graci Kim does such an amazing job of blending Korean mythology into the modern world, I am now wondering how I ever lived without knowing all this cool information."--New York Times #1 best-selling author Rick Riordan
+
+            Riley Oh can't wait to see her sister get initiated into the Gom clan, a powerful lineage of Korean healing witches their family has belonged to for generations. Her sister, Hattie, will earn her Gi bracelet and finally be able to cast spells without adult supervision. Although Riley is desperate to follow in her sister's footsteps when she herself turns thirteen, she's a saram--a person without magic. Riley was adopted, and despite having memorized every healing spell she's ever heard, she often feels like the odd one out in her family and the gifted community.
+            Then Hattie gets an idea: what if the two of them could cast a spell that would allow Riley to share Hattie's magic? Their sleuthing reveals a promising incantation in the family's old spell book, and the sisters decide to perform it at Hattie's initiation ceremony. If it works, no one will ever treat Riley as an outsider again. It's a perfect plan!
+
+            Until it isn't. When the sisters attempt to violate the laws of the Godrealm, Hattie's life ends up hanging in the balance, and to save her Riley has to fulfill an impossible task: find the last fallen star. But what even is the star, and how can she find it?
+
+            As Riley embarks on her search, she finds herself meeting fantastic creatures and collaborating with her worst enemies. And when she uncovers secrets that challenge everything she has been taught to believe, Riley must decide what it means to be a witch, what it means to be family, and what it really means to belong.
+
+            "A fun, new magical world that promises more adventures to come."--Kirkus Reviews</fullDescription>
+        <rating>4.26</rating>
+        <numberOfRatings>3624</numberOfRatings>
+        <numberOfReviews>657</numberOfReviews>
+        <numberOfPages>336</numberOfPages>
+        <publishingDate>May 4, 2021</publishingDate>
     </book>
     <book>
         <title>The Last Duel</title>
         <author>Eric Jager</author>
         <genre>History</genre>
-        <briefDescription>The gripping true story of the “duel to end all duels” in medieval France as a resolute knight defends his wife's honor against the squire she accuses of a heinous crime.</briefDescription>
         <icon>@drawable/history_icon</icon>
         <cover>@drawable/the_last_duel</cover>
+        <briefDescription>The gripping true story of the “duel to end all duels” in medieval France as a resolute knight defends his wife's honor against the squire she accuses of a heinous crime.</briefDescription>
+        <fullDescription>The gripping true story of the “duel to end all duels” in medieval France as a resolute knight defends his wife's honor against the squire she accuses of a heinous crime.
+
+            In the midst of the devastating Hundred Years’ War between France and England, Jean de Carrouges, a Norman knight fresh from combat in Scotland, returns home to yet another deadly threat. His wife, Marguerite, has accused squire Jacques Le Gris of rape. A deadlocked court decrees a “trial by combat” between the two men that also leaves Marguerite’s fate in the balance. For if her husband loses the duel, she will be put to death as a false accuser.
+
+            While enemy troops pillage the land, and rebellion and plague threaten the lives of all, Carrouges and Le Gris meet in full armor on a walled field in Paris. What follows is a fierce duel, the final one sanctioned by governing powers, before a massive crowd that includes the teenage King Charles VI, during which both combatants are wounded—but only one fatally.
+
+            Based on extensive research in Normandy and Paris, THE LAST DUEL brings to life a colorful, turbulent age and three unforgettable characters caught in a fatal triangle of crime, scandal, and revenge. THE LAST DUEL is at once a moving human drama, a captivating true crime story, and an engrossing work of historical intrigue with themes that echo powerfully centuries later.</fullDescription>
+        <rating>3.97</rating>
+        <numberOfRatings>6178</numberOfRatings>
+        <numberOfReviews>804</numberOfReviews>
+        <numberOfPages>242</numberOfPages>
+        <publishingDate>October 12, 2004</publishingDate>
     </book>
     <book>
         <title>The Last Chance Hotel</title>
         <author>Nicki Thornton</author>
         <genre>Middle Grade Mystery</genre>
-        <briefDescription>Seth is a kitchen boy at the remote Last Chance Hotel. His father has long ago left, leaving him imprisoned until he is old enough to set out on his own. If there's any hope he has, it's to be the greatest chef that ever lived... just like his father.</briefDescription>
         <icon>@drawable/middle_grade_mystery_icon</icon>
         <cover>@drawable/the_last_chance_hotel</cover>
+        <briefDescription>Seth is a kitchen boy at the remote Last Chance Hotel. His father has long ago left, leaving him imprisoned until he is old enough to set out on his own. If there's any hope he has, it's to be the greatest chef that ever lived... just like his father.</briefDescription>
+        <fullDescription>Seth is a kitchen boy at the remote Last Chance Hotel. His father has long ago left, leaving him imprisoned until he is old enough to set out on his own. If there's any hope he has, it's to be the greatest chef that ever lived... just like his father.
+
+            One night, a band of magicians begin to arrive to participate in a secret meeting -- a Prospect Selection Procedure to determine the most talented magicians in the world, judged by their leader Dr. Thallonius. Seth has one task: to make Dr. Thallonius the greatest dessert he's ever tasted. Then, maybe he will help Seth find a way to freedom.
+
+            But when the doors to the private meeting open, and Dr. Thallonius lay dead on the floor, the group blames the dessert, which means that it's Seth who will pay the price. But Seth knows he's innocent, and only has so much time to eliminate each suspect and prove his innocence.</fullDescription>
+        <rating>3.61</rating>
+        <numberOfRatings>2000</numberOfRatings>
+        <numberOfReviews>304</numberOfReviews>
+        <numberOfPages>336</numberOfPages>
+        <publishingDate>June 7, 2018</publishingDate>
     </book>
     <book>
         <title>The Last Bookshop in London</title>
         <author>Madeline Martin</author>
         <genre>Historical Fiction</genre>
-        <briefDescription>Inspired by the true World War II history of the few bookshops to survive the Blitz, The Last Bookshop in London is a timeless story of wartime loss, love and the enduring power of literature.</briefDescription>
         <icon>@drawable/historical_fiction_icon</icon>
         <cover>@drawable/the_last_bookshop_in_london</cover>
+        <briefDescription>Inspired by the true World War II history of the few bookshops to survive the Blitz, The Last Bookshop in London is a timeless story of wartime loss, love and the enduring power of literature.</briefDescription>
+        <fullDescription>Inspired by the true World War II history of the few bookshops to survive the Blitz, The Last Bookshop in London is a timeless story of wartime loss, love and the enduring power of literature.
+
+            August 1939: London prepares for war as Hitler’s forces sweep across Europe. Grace Bennett has always dreamed of moving to the city, but the bunkers and blackout curtains that she finds on her arrival were not what she expected. And she certainly never imagined she’d wind up working at Primrose Hill, a dusty old bookshop nestled in the heart of London.
+
+            Through blackouts and air raids as the Blitz intensifies, Grace discovers the power of storytelling to unite her community in ways she never dreamed—a force that triumphs over even the darkest nights of the war.</fullDescription>
+        <rating>4.15</rating>
+        <numberOfRatings>70424</numberOfRatings>
+        <numberOfReviews>7679</numberOfReviews>
+        <numberOfPages>325</numberOfPages>
+        <publishingDate>April 6, 2021</publishingDate>
     </book>
     <book>
         <title>The Last Adventure of Constance Verity</title>
         <author>A. Lee Martinez</author>
         <genre>Fantasy</genre>
-        <briefDescription>Constance Verity has been saving the world since she was seven, and she’s sick of it. She sets off on one last adventure to assassinate her fairy godmother and become the one thing she’s never been: ordinary.</briefDescription>
         <icon>@drawable/fantasy_icon</icon>
         <cover>@drawable/the_last_adventure_of_constance_verity</cover>
+        <briefDescription>Constance Verity has been saving the world since she was seven, and she’s sick of it. She sets off on one last adventure to assassinate her fairy godmother and become the one thing she’s never been: ordinary.</briefDescription>
+        <fullDescription>Constance Verity has been saving the world since she was seven, and she’s sick of it. She sets off on one last adventure to assassinate her fairy godmother and become the one thing she’s never been: ordinary.
+
+            Ever since she was granted a wish at birth by her fairy godmother, Constance Verity has become one of the world’s great adventurers. It all began at her seventh birthday party when she defeated a snake. She has become a master of exotic martial arts, a keen detective, and possesses a collection of strange artifacts gathered from her adventures. But Constance has spent the past twenty-eight years saving the world, and she’s tired of it. All she wants is to work in an office and date a nice, normal guy. And she is finally figured out a way to do it: she’s going to kill her fairy godmother and reset her life. The only problem, though, is that saving the world is Constance’s destiny. She’s great at it, and there are forces at work to make sure she stays in the job.
+
+            Then again, it’s also her destiny to have a glorious death.</fullDescription>
+        <rating>3.68</rating>
+        <numberOfRatings>2235</numberOfRatings>
+        <numberOfReviews>328</numberOfReviews>
+        <numberOfPages>384</numberOfPages>
+        <publishingDate>June 14, 2016</publishingDate>
     </book>
     <book>
         <title>The Last Affair</title>
         <author>Margot Hunt</author>
         <genre>Thriller</genre>
+        <icon>@drawable/thriller_icon</icon>
+        <cover>@drawable/the_last_affair</cover>
         <briefDescription>Love may be blind, but obsession’s a real killer.
 
             Nora Holliday is not that kind of woman. Not the kind who has an illicit affair with a married man. But Josh Landon is everything Nora’s alcoholic husband isn’t. And now she and Josh are so infatuated, they can’t stay away from one another.</briefDescription>
-        <icon>@drawable/thriller_icon</icon>
-        <cover>@drawable/the_last_affair</cover>
+        <fullDescription>Love may be blind, but obsession’s a real killer.
+
+            Nora Holliday is not that kind of woman. Not the kind who has an illicit affair with a married man. But Josh Landon is everything Nora’s alcoholic husband isn’t. And now she and Josh are so infatuated, they can’t stay away from one another.
+
+            Abby Landon, Josh’s daughter, is home from college nursing a broken heart. She’s seeking solace, not more scandal, so when she catches her dad kissing Nora, she vows to take the homewrecker down.
+
+            And as for Abby’s mother and Josh’s wife, Gwen? To anyone on the outside looking in, the mother of two appears to be living the ideal suburban life.
+
+            Until she winds up dead.
+
+            The serene seaside town of Shoreham has always been the perfect place to raise a family—not somewhere housewives are brutally murdered. So who killed Gwen Landon, and how many twisted secrets will be exposed as the vindictive plot comes undone?</fullDescription>
+        <rating>3.72</rating>
+        <numberOfRatings>4033</numberOfRatings>
+        <numberOfReviews>509</numberOfReviews>
+        <numberOfPages>336</numberOfPages>
+        <publishingDate>November 26, 2019</publishingDate>
     </book>
     <book>
         <title>The Last Act</title>
         <author>Brad Parks</author>
         <genre>Mystery</genre>
-        <briefDescription>Struggling stage actor Tommy Jump knows he has to stop chasing applause and start chasing greenbacks. But then he's offered the role of a lifetime: $150,000 for a six-month acting gig. With a newly pregnant fiancee depending on him, it's an opportunity he can't refuse, even though the offer comes from the strangest employer imaginable: the FBI.</briefDescription>
         <icon>@drawable/mystery_icon</icon>
         <cover>@drawable/the_last_act</cover>
+        <briefDescription>Struggling stage actor Tommy Jump knows he has to stop chasing applause and start chasing greenbacks. But then he's offered the role of a lifetime: $150,000 for a six-month acting gig. With a newly pregnant fiancee depending on him, it's an opportunity he can't refuse, even though the offer comes from the strangest employer imaginable: the FBI.</briefDescription>
+        <fullDescription>Award-winning author Brad Parks delivers a deliciously tense novel of thrills, twists, and deceit that will keep readers riveted.
+
+            Struggling stage actor Tommy Jump knows he has to stop chasing applause and start chasing greenbacks. But then he's offered the role of a lifetime: $150,000 for a six-month acting gig. With a newly pregnant fiancee depending on him, it's an opportunity he can't refuse, even though the offer comes from the strangest employer imaginable: the FBI.
+
+            The feds won a small victory when they arrested Mitchell Dupree, a banker who has spent the past four years laundering money for New Colima, one of the deadliest cartels in Mexico and a major supplier of crystal meth in the US. But Dupree has documents that could lead to arrests of high-ranking members of New Colima, including their fearsome leader, El Vio . . . if only he'd tell the FBI where they are.
+
+            Using a false name and backstory, Tommy will enter Dupree's low-security prison as a felon and get close to the banker in the hopes that he'll reveal the documents' whereabouts. But when Tommy arrives, he quickly realizes that he's underestimated the enormity of his task and the terrifying reach of the cartel. Because the FBI isn't the only one looking for the documents, and if Tommy doesn't play his role to perfection, it just may be his last act.</fullDescription>
+        <rating>4.02</rating>
+        <numberOfRatings>1831</numberOfRatings>
+        <numberOfReviews>249</numberOfReviews>
+        <numberOfPages>371</numberOfPages>
+        <publishingDate>March 12, 2019</publishingDate>
     </book>
 </books>
