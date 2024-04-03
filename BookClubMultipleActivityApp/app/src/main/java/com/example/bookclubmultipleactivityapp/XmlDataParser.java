@@ -42,9 +42,13 @@ public class XmlDataParser {
 
         try {
             int eventType = parser.getEventType();
-            String title = null, author = null, genre = null; String briefDescription = null;
-            int iconDrawable = 0;
-            int coverDrawable = 0;
+            // Initialize variables
+            String title = null, author = null, genre = null, briefDescription = null,
+                    fullDescription = null, publishingDate = null;
+            float rating = 0;
+            int iconDrawable = 0, coverDrawable = 0,
+                    numberOfRatings = 0, numberOfReviews = 0, numberOfPages = 0;
+
             while (eventType != XmlPullParser.END_DOCUMENT) {
                 String eltName;
 
@@ -57,8 +61,14 @@ public class XmlDataParser {
                             author = null;
                             genre = null;
                             iconDrawable = 0; // Reset to default for each new book
-                            briefDescription = null;
                             coverDrawable = 0;
+                            briefDescription = null;
+                            fullDescription = null;
+                            rating = 0;
+                            numberOfRatings = 0;
+                            numberOfReviews = 0;
+                            numberOfPages = 0;
+                            publishingDate = null;
                         } else if ("title".equals(eltName)) {
                             title = parser.nextText();
                         } else if ("author".equals(eltName)) {
@@ -72,18 +82,32 @@ public class XmlDataParser {
                             } else {
                                 iconDrawable = genreIconMap.get("Default"); // Use default icon if genre not found
                             }
-                        } else if ("briefDescription".equals(eltName)) {
-                            briefDescription = parser.nextText();
                         } else if ("cover".equals(eltName)) {
                             String coverDrawableName = parser.nextText();
                             coverDrawable = context.getResources().getIdentifier(coverDrawableName, "drawable", context.getPackageName());
+                        } else if ("briefDescription".equals(eltName)) {
+                            briefDescription = parser.nextText();
+                        } else if ("fullDescription".equals(eltName)) {
+                            fullDescription = parser.nextText();
+                        } else if ("rating".equals(eltName)) {
+                            rating = Float.parseFloat(parser.nextText());
+                        } else if ("numberOfRatings".equals(eltName)) {
+                            numberOfRatings = Integer.parseInt(parser.nextText());
+                        } else if ("numberOfReviews".equals(eltName)) {
+                            numberOfReviews = Integer.parseInt(parser.nextText());
+                        } else if ("numberOfPages".equals(eltName)) {
+                            numberOfPages = Integer.parseInt(parser.nextText());
+                        } else if ("publishingDate".equals(eltName)) {
+                            publishingDate = parser.nextText();
                         }
                         break;
                     case XmlPullParser.END_TAG:
                         eltName = parser.getName();
                         if ("book".equals(eltName) && title != null && author != null && genre != null) {
                             // Add the book to the list
-                            books.add(new Book(title, author, genre, iconDrawable, briefDescription, coverDrawable));
+                            books.add(new Book(title, author, genre, iconDrawable, coverDrawable,
+                                    briefDescription, fullDescription, rating, numberOfRatings,
+                                    numberOfReviews, numberOfPages, publishingDate));
                         }
                         break;
                 }

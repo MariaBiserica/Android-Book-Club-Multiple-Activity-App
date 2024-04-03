@@ -56,9 +56,16 @@ public class BooksAdapter extends RecyclerView.Adapter<BooksAdapter.BookViewHold
             intent.putExtra("title", book.getTitle());
             intent.putExtra("author", book.getAuthor());
             intent.putExtra("genre", book.getGenre());
-            intent.putExtra("briefDescription", book.getBriefDescription());
             intent.putExtra("iconDrawable", book.getIconDrawable());
             intent.putExtra("coverDrawable", book.getCoverDrawable());
+            intent.putExtra("briefDescription", book.getBriefDescription());
+            intent.putExtra("fullDescription", book.getFullDescription());
+            intent.putExtra("rating", book.getRating());
+            intent.putExtra("numberOfRatings", book.getNumberOfRatings());
+            intent.putExtra("numberOfReviews", book.getNumberOfReviews());
+            intent.putExtra("numberOfPages", book.getNumberOfPages());
+            intent.putExtra("publishingDate", book.getPublishingDate());
+
             context.startActivity(intent);
         });
     }
