@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE books [
     <!ELEMENT books (book)*>
-    <!ELEMENT book (title, author, genre, icon, cover, briefDescription, fullDescription, rating, numberOfRatings, numberOfReviews, numberOfPages, publishingDate)*>
+    <!ELEMENT book (title, author, genre, icon, cover, briefDescription, fullDescription, rating, numberOfRatings, numberOfReviews, numberOfPages, publishingDate, reviewUrl)*>
     <!ELEMENT title (#PCDATA)>
     <!ELEMENT author (#PCDATA)>
     <!ELEMENT genre (#PCDATA)>
@@ -14,6 +14,7 @@
     <!ELEMENT numberOfReviews (#PCDATA)>
     <!ELEMENT numberOfPages (#PCDATA)>
     <!ELEMENT publishingDate (#PCDATA)>
+    <!ELEMENT reviewUrl (#PCDATA)>
     ]>
 <books>
     <book>
@@ -41,6 +42,7 @@
         <numberOfReviews>199534</numberOfReviews>
         <numberOfPages>498</numberOfPages>
         <publishingDate>May 2, 2023</publishingDate>
+        <reviewUrl>https://www.goodreads.com/book/show/61431922-fourth-wing?ref=nav_sb_ss_2_7</reviewUrl>
     </book>
     <book>
         <title>Happy Place</title>
@@ -63,6 +65,7 @@
         <numberOfReviews>92470</numberOfReviews>
         <numberOfPages>400</numberOfPages>
         <publishingDate>April 25, 2023</publishingDate>
+        <reviewUrl>https://www.goodreads.com/book/show/61718053-happy-place?ref=nav_sb_ss_1_7</reviewUrl>
     </book>
     <book>
         <title>Iron Flame</title>
@@ -87,6 +90,7 @@
         <numberOfReviews>106034</numberOfReviews>
         <numberOfPages>640</numberOfPages>
         <publishingDate>November 7, 2023</publishingDate>
+        <reviewUrl>https://www.goodreads.com/book/show/90202302-iron-flame?ref=nav_sb_ss_1_7</reviewUrl>
     </book>
     <book>
         <title>The Housemaid's Secret</title>
@@ -105,6 +109,7 @@
         <numberOfReviews>33632</numberOfReviews>
         <numberOfPages>318</numberOfPages>
         <publishingDate>February 15, 2023</publishingDate>
+        <reviewUrl>https://www.goodreads.com/book/show/62848145-the-housemaid-s-secret?ref=nav_sb_ss_2_12</reviewUrl>
     </book>
     <book>
         <title>The Gilded Wolves</title>
@@ -125,6 +130,7 @@
         <numberOfReviews>10291</numberOfReviews>
         <numberOfPages>388</numberOfPages>
         <publishingDate>January 15, 2019</publishingDate>
+        <reviewUrl>https://www.goodreads.com/book/show/39863498-the-gilded-wolves?ref=nav_sb_ss_2_10</reviewUrl>
     </book>
     <book>
         <title>The Echo Wife</title>
@@ -151,6 +157,7 @@
         <numberOfReviews>5915</numberOfReviews>
         <numberOfPages>256</numberOfPages>
         <publishingDate>February 16, 2021</publishingDate>
+        <reviewUrl>https://www.goodreads.com/book/show/52379735-the-echo-wife?ref=nav_sb_ss_1_13</reviewUrl>
     </book>
     <book>
         <title>The Hawthorne Legacy</title>
@@ -171,6 +178,7 @@
         <numberOfReviews>42062</numberOfReviews>
         <numberOfPages>380</numberOfPages>
         <publishingDate>September 7, 2021</publishingDate>
+        <reviewUrl>https://www.goodreads.com/book/show/50531218-the-hawthorne-legacy?ref=nav_sb_ss_3_7</reviewUrl>
     </book>
     <book>
         <title>The Book of Accidents</title>
@@ -197,6 +205,7 @@
         <numberOfReviews>3716</numberOfReviews>
         <numberOfPages>530</numberOfPages>
         <publishingDate>July 20, 2021</publishingDate>
+        <reviewUrl>https://www.goodreads.com/book/show/55782435-the-book-of-accidents?ref=nav_sb_ss_1_16</reviewUrl>
     </book>
     <book>
         <title>The Heart Principle</title>
@@ -215,6 +224,7 @@
         <numberOfReviews>15727</numberOfReviews>
         <numberOfPages>339</numberOfPages>
         <publishingDate>August 31, 2021</publishingDate>
+        <reviewUrl>https://www.goodreads.com/book/show/50056075-the-heart-principle?ref=nav_sb_ss_1_16</reviewUrl>
     </book>
     <book>
         <title>The Final Girl Support Group</title>
@@ -235,6 +245,7 @@
         <numberOfReviews>19646</numberOfReviews>
         <numberOfPages>352</numberOfPages>
         <publishingDate>July 13, 2021</publishingDate>
+        <reviewUrl>https://www.goodreads.com/book/show/55829194-the-final-girl-support-group?ref=nav_sb_ss_1_27</reviewUrl>
     </book>
     <book>
         <title>The Ex Hex</title>
@@ -255,6 +266,7 @@
         <numberOfReviews>29056</numberOfReviews>
         <numberOfPages>308</numberOfPages>
         <publishingDate>September 28, 2021</publishingDate>
+        <reviewUrl>https://www.goodreads.com/book/show/56554626-the-ex-hex?ref=nav_sb_ss_1_10</reviewUrl>
     </book>
     <book>
         <title>The Soulmate Equation</title>
@@ -275,6 +287,7 @@
         <numberOfReviews>25910</numberOfReviews>
         <numberOfPages>416</numberOfPages>
         <publishingDate>May 28, 2021</publishingDate>
+        <reviewUrl>https://www.goodreads.com/book/show/58438593-the-soulmate-equation?ref=nav_sb_ss_1_12</reviewUrl>
     </book>
     <book>
         <title>The Inheritance of Orquídea Divina</title>
@@ -291,6 +304,7 @@
         <numberOfReviews>4858</numberOfReviews>
         <numberOfPages>336</numberOfPages>
         <publishingDate>September 7, 2021</publishingDate>
+        <reviewUrl>https://www.goodreads.com/book/show/56898076-the-inheritance-of-orqu-dea-divina?ref=nav_sb_ss_1_5</reviewUrl>
     </book>
     <book>
         <title>The Bone Season</title>
@@ -309,6 +323,7 @@
         <numberOfReviews>11611</numberOfReviews>
         <numberOfPages>466</numberOfPages>
         <publishingDate>August 20, 2013</publishingDate>
+        <reviewUrl>https://www.goodreads.com/book/show/17199504-the-bone-season?ref=nav_sb_ss_2_11</reviewUrl>
     </book>
     <book>
         <title>Spare</title>
@@ -333,6 +348,7 @@
         <numberOfReviews>39053</numberOfReviews>
         <numberOfPages>410</numberOfPages>
         <publishingDate>January 10, 2023</publishingDate>
+        <reviewUrl>https://www.goodreads.com/book/show/62296528-spare?ref=nav_sb_ss_1_5</reviewUrl>
     </book>
     <book>
         <title>The Last Graduate</title>
@@ -349,6 +365,7 @@
         <numberOfReviews>12126</numberOfReviews>
         <numberOfPages>388</numberOfPages>
         <publishingDate>September 28, 2021</publishingDate>
+        <reviewUrl>https://www.goodreads.com/book/show/55559887-the-last-graduate?ref=nav_sb_ss_1_17</reviewUrl>
     </book>
     <book>
         <title>The Last House on Needless Street</title>
@@ -372,6 +389,7 @@
         <numberOfReviews>16634</numberOfReviews>
         <numberOfPages>335</numberOfPages>
         <publishingDate>March 18, 2021</publishingDate>
+        <reviewUrl>https://www.goodreads.com/book/show/54621094-the-last-house-on-needless-street?ref=nav_sb_ss_1_14</reviewUrl>
     </book>
     <book>
         <title>The Last Chance Library</title>
@@ -392,6 +410,7 @@
         <numberOfReviews>4125</numberOfReviews>
         <numberOfPages>336</numberOfPages>
         <publishingDate>August 31, 2021</publishingDate>
+        <reviewUrl>https://www.goodreads.com/book/show/56377192-the-last-chance-library?ref=nav_sb_ss_1_16</reviewUrl>
     </book>
     <book>
         <title>The Last Legacy</title>
@@ -410,6 +429,7 @@
         <numberOfReviews>1420</numberOfReviews>
         <numberOfPages>322</numberOfPages>
         <publishingDate>September 7, 2021</publishingDate>
+        <reviewUrl>https://www.goodreads.com/book/show/56269227-the-last-legacy?ref=nav_sb_ss_1_15</reviewUrl>
     </book>
     <book>
         <title>The Last Fallen Star</title>
@@ -435,6 +455,7 @@
         <numberOfReviews>657</numberOfReviews>
         <numberOfPages>336</numberOfPages>
         <publishingDate>May 4, 2021</publishingDate>
+        <reviewUrl>https://www.goodreads.com/book/show/55277625-the-last-fallen-star?ref=nav_sb_ss_1_15</reviewUrl>
     </book>
     <book>
         <title>The Last Duel</title>
@@ -455,6 +476,7 @@
         <numberOfReviews>804</numberOfReviews>
         <numberOfPages>242</numberOfPages>
         <publishingDate>October 12, 2004</publishingDate>
+        <reviewUrl>https://www.goodreads.com/book/show/438538.The_Last_Duel?ref=nav_sb_ss_1_13</reviewUrl>
     </book>
     <book>
         <title>The Last Chance Hotel</title>
@@ -473,6 +495,7 @@
         <numberOfReviews>304</numberOfReviews>
         <numberOfPages>336</numberOfPages>
         <publishingDate>June 7, 2018</publishingDate>
+        <reviewUrl>https://www.goodreads.com/book/show/39934901-the-last-chance-hotel?ref=nav_sb_ss_1_21</reviewUrl>
     </book>
     <book>
         <title>The Last Bookshop in London</title>
@@ -491,6 +514,7 @@
         <numberOfReviews>7679</numberOfReviews>
         <numberOfPages>325</numberOfPages>
         <publishingDate>April 6, 2021</publishingDate>
+        <reviewUrl>https://www.goodreads.com/book/show/53331577-the-last-bookshop-in-london?ref=nav_sb_ss_1_27</reviewUrl>
     </book>
     <book>
         <title>The Last Adventure of Constance Verity</title>
@@ -509,6 +533,7 @@
         <numberOfReviews>328</numberOfReviews>
         <numberOfPages>384</numberOfPages>
         <publishingDate>June 14, 2016</publishingDate>
+        <reviewUrl>https://www.goodreads.com/book/show/26869939-the-last-adventure-of-constance-verity?ref=nav_sb_ss_1_16</reviewUrl>
     </book>
     <book>
         <title>The Last Affair</title>
@@ -535,6 +560,7 @@
         <numberOfReviews>509</numberOfReviews>
         <numberOfPages>336</numberOfPages>
         <publishingDate>November 26, 2019</publishingDate>
+        <reviewUrl>https://www.goodreads.com/book/show/43483465-the-last-affair?ref=nav_sb_ss_1_14</reviewUrl>
     </book>
     <book>
         <title>The Last Act</title>
@@ -555,5 +581,6 @@
         <numberOfReviews>249</numberOfReviews>
         <numberOfPages>371</numberOfPages>
         <publishingDate>March 12, 2019</publishingDate>
+        <reviewUrl>https://www.goodreads.com/book/show/40915204-the-last-act?ref=nav_sb_ss_3_12</reviewUrl>
     </book>
 </books>

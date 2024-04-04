@@ -1,56 +1,67 @@
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:fillViewport="true">
+    android:layout_height="match_parent">
 
-    <LinearLayout
+    <ScrollView
+        android:id="@+id/scrollView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="16dp">
+        android:layout_height="match_parent"
+        android:layout_above="@+id/backButton"
+        android:fillViewport="true">
 
-        <!-- FrameLayout for ImageView border and shadow -->
-        <FrameLayout
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:background="@drawable/image_border"
-            android:elevation="4dp"
-            android:padding="2dp">
+            android:orientation="vertical"
+            android:padding="16dp">
 
-            <ImageView
-                android:id="@+id/bookCoverImageView"
+            <!-- FrameLayout for ImageView border and shadow -->
+            <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:adjustViewBounds="true"
-                android:scaleType="fitCenter" />
-        </FrameLayout>
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/image_border"
+                android:elevation="4dp"
+                android:padding="2dp">
 
-        <!-- Text view with custom background -->
-        <TextView
-            android:id="@+id/bookDescriptionTextView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="16sp"
-            android:background="@drawable/text_background"
-            android:layout_marginTop="16dp"
-            android:padding="8dp" />
+                <ImageView
+                    android:id="@+id/bookCoverImageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter" />
+            </FrameLayout>
 
-        <Button
-            android:id="@+id/moreDetailsButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="More Details"
-            android:layout_marginTop="16dp"
-            android:layout_gravity="center_horizontal"/>
+            <!-- Text view with custom background -->
+            <TextView
+                android:id="@+id/bookDescriptionTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:background="@drawable/text_background"
+                android:layout_marginTop="16dp"
+                android:padding="8dp" />
 
-        <Button
-            android:id="@+id/backButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Back to List"
-            android:layout_marginTop="16dp"
-            android:layout_gravity="center_horizontal"/>
+            <Button
+                android:id="@+id/moreDetailsButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="More Details"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center_horizontal"/>
 
-    </LinearLayout>
-</ScrollView>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Back to List"
+        android:background="@color/green"
+        android:padding="12dp"
+        android:textAllCaps="false" />
+
+</RelativeLayout>

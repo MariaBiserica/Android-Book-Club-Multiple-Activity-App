@@ -94,7 +94,7 @@
                 android:id="@+id/view_reviews_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="View Reviews"
+                android:text="View Reviews and More"
                 android:layout_marginTop="8dp"/>
         </LinearLayout>
     </ScrollView>
