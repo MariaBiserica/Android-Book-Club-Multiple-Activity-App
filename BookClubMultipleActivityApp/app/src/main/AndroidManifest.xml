@@ -27,6 +27,10 @@
         <activity android:name=".BookDetailsActivity2" />
         <activity android:name=".BookDetailsActivity3" />
         <activity android:name=".WebInfoActivity4" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
