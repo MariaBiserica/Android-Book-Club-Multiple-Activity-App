@@ -27,6 +27,9 @@
         <activity android:name=".BookDetailsActivity2" />
         <activity android:name=".BookDetailsActivity3" />
         <activity android:name=".WebInfoActivity4" />
+        <activity android:name=".ManageBooksActivity5" />
+        <activity android:name=".AddBookActivity" />
+        <activity android:name=".EditBookActivity" />
 
         <meta-data
             android:name="preloaded_fonts"

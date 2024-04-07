@@ -6,4 +6,13 @@
     <string name="publishing_date">Publishing Date: %1$s</string>
     <string name="welcome_message">Hello, literary adventurers! As spring blooms around us, what better way to celebrate the season of renewal than with a fresh batch of captivating reads? This month, the "Page Turners Paradise" Book Club has scoured the literary landscapes to bring you a selection that promises to whisk you away to worlds both known and uncharted, challenge your perceptions, and ignite your imagination.\n\nHappy reading, and remember: every page turned is a new journey begun!</string>
     <string name="expand_welcome_message">Expand welcome message</string>
+    <string name="manage_books_description">Manage books</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="add_book">Add Book</string>
+    <string name="title">Title</string>
+    <string name="author">Author</string>
+    <string name="genre">Genre</string>
+    <string name="numberOfPages">Number of Pages</string>
+    <string name="save">Save</string>
 </resources>

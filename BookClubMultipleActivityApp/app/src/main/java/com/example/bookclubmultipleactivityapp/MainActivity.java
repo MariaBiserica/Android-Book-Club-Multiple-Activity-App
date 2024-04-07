@@ -1,5 +1,6 @@
 package com.example.bookclubmultipleactivityapp;
 
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.View;
@@ -10,6 +11,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.res.ResourcesCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
@@ -42,6 +46,14 @@ public class MainActivity extends AppCompatActivity {
 
         // Expand more button click listener
         expandMoreImageView.setOnClickListener(view -> toggleWelcomeMessage());
+
+        // Floating button for Activity 5
+        FloatingActionButton manageBooksFab = findViewById(R.id.manage_books_fab);
+        manageBooksFab.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, ManageBooksActivity5.class);
+            startActivity(intent);
+        });
+
     }
 
     private void toggleWelcomeMessage() {
