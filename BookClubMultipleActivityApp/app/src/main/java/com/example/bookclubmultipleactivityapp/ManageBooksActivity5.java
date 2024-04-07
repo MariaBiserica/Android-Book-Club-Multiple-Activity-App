@@ -35,6 +35,15 @@ public class ManageBooksActivity5 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        // Floating back button action
+        FloatingActionButton backButton = findViewById(R.id.backButton);
+        backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
     }
 
     @Override

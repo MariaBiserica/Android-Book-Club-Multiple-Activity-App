@@ -59,11 +59,14 @@
         android:id="@+id/manage_books_fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
         android:clickable="true"
-        android:focusable="true"
-        android:src="@drawable/ic_manage_books"
         android:contentDescription="@string/manage_books_description"
+        android:focusable="true"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:maxImageSize="40dp"
+        app:srcCompat="@android:drawable/ic_menu_agenda" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

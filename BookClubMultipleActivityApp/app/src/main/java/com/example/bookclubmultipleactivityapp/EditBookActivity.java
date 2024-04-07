@@ -6,6 +6,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 public class EditBookActivity extends AppCompatActivity {
 
     private EditText editTextTitle, editTextAuthor, editTextGenre, editTextNumberOfPages;
@@ -36,6 +38,15 @@ public class EditBookActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 updateBook();
+            }
+        });
+
+        // Floating back button action
+        FloatingActionButton backButton = findViewById(R.id.backButton);
+        backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
             }
         });
     }
