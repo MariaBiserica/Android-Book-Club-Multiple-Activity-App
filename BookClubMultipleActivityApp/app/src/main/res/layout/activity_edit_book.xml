@@ -72,6 +72,6 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:maxImageSize="40dp"
-            app:srcCompat="@android:drawable/ic_media_previous" />
+            app:srcCompat="?attr/homeAsUpIndicator" />
     </LinearLayout>
 </ScrollView>

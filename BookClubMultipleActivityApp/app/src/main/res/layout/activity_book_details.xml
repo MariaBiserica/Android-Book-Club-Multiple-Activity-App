@@ -38,10 +38,11 @@
                 android:id="@+id/bookDescriptionTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="16sp"
-                android:background="@drawable/text_background"
                 android:layout_marginTop="16dp"
-                android:padding="8dp" />
+                android:background="@drawable/text_background"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:textSize="16sp" />
 
             <Button
                 android:id="@+id/moreDetailsButton"
